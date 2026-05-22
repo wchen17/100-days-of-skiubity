@@ -38,7 +38,10 @@ if first_choice == "1":
     print("  n - Keep the shoe and back away slowly")
 
     trade_choice = input("\nWhat do you do? (y or n): ")
-
+    if trade_choice == "y":
+        print("The sword is yours")
+    else:
+        print("oh well, maybe next time")
     # TODO: write the if/else for the trade choice
     # ----------
     # if trade_choice == "y":
@@ -62,6 +65,17 @@ elif first_choice == "2":
     print("  3 - Ask if you can have some of his lunch")
 
     goblin_choice = input("\nWhat do you do? (1, 2, or 3): ")
+    if goblin_choice == "1":
+        print("The goblin didnt see you at all!")
+    elif goblin_choice == "2":
+        print("The gayblin is mad now...")
+        weapon = input("do you take out your weapon? (y/n)")
+        if weapon == "y":
+            print("the gayblin respectfully makes way for you")
+        else:
+            print("the goblin smashes with his rock smashing sword, you lose")
+    elif goblin_choice == "3":
+        print("No problem polite human!")
 
     # TODO: write the if / elif / else for the goblin choice
     # ----------
@@ -77,11 +91,12 @@ elif first_choice == "2":
 #  CATCH-ALL  — player typed something unexpected
 # --------------------------------------------------
 else:
+    print("uhhh, you cant do that.")
     # TODO: handle invalid input for the first choice
     # ----------
     # print a message telling the player the input wasn't valid.
     # ----------
-    pass  # delete this 'pass' once you fill in the block above
+  # delete this 'pass' once you fill in the block above
 
 
 # ============================================================
