@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Home — My Blog{% endblock %}
+{% block content %}
+
+<h1 class="mb-4">Latest Posts</h1>
+
+<!-- TODO: display posts in a Bootstrap card grid (3 columns) -->
+<div class="row g-4">
+{% for post in posts %}
+<div class="col-md-4">
+    <div class="card h-100">
+        <div class="card-body">
+            <h5 class="card-title">{{ post.title | title }}</h5>
+            <p class="card-text text-muted">{{ post.body[:80] }}...</p>
+        </div>
+        <div class="card-footer">
+            <a href="/post/{{ post.id }}" class="btn btn-primary btn-sm">Read More</a>
+        </div>
+    </div>
+</div>
+{% endfor %}
+</div>
+
+{% endblock %}

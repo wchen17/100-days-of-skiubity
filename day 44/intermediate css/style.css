@@ -1,0 +1,76 @@
+/* ============================================================
+   DAY 44 — Intermediate CSS
+   PROJECT: Style a full portfolio page with layout
+   ============================================================
+
+   SKILLS TODAY:
+     display: flex / grid
+     flexbox: justify-content, align-items, flex-wrap, gap
+     CSS Grid: grid-template-columns, grid-gap
+     position: static / relative / absolute / fixed / sticky
+     z-index
+     Media queries: @media (max-width: 768px) { }
+     CSS variables: --primary-color: #4a90d9;
+     Pseudo-classes: :hover, :focus, :nth-child()
+
+   ============================================================ */
+
+:root {
+    --primary:    #4a90d9;
+    --secondary:  #2d2d2d;
+    --bg:         #f9f9f9;
+    --text:       #333;
+    --radius:     8px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { font-family: "Segoe UI", sans-serif; background: var(--bg); color: var(--text); }
+
+/* --- Navbar (position: sticky) --- */
+nav {
+    background: var(--secondary);
+    color: white;
+    padding: 16px 32px;
+    /* TODO: position sticky, top: 0, z-index: 100 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a { color: white; text-decoration: none; margin-left: 16px; }
+nav a:hover { color: var(--primary); }
+
+/* --- Hero section (flexbox centred) --- */
+.hero {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    /* TODO: justify-content and align-items to centre content */
+    text-align: center;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: white;
+}
+
+/* --- Project cards (CSS Grid) --- */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    border-radius: var(--radius);
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    /* TODO: add hover: transform: translateY(-4px), transition */
+}
+
+/* --- Mobile responsive --- */
+@media (max-width: 768px) {
+    .projects {
+        /* TODO: change to single column grid */
+    }
+}

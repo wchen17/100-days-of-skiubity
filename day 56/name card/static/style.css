@@ -1,0 +1,6 @@
+/* TODO: Style your name card */
+body { font-family: Arial, sans-serif; background: #1e1e2e; color: #cdd6f4; display: flex; justify-content: center; padding: 40px; }
+.card { background: #313244; border-radius: 12px; padding: 40px; max-width: 500px; width: 100%; box-shadow: 0 8px 32px rgba(0,0,0,0.3); }
+h1 { color: #cba6f7; }
+h2 { color: #89b4fa; font-weight: normal; }
+.links a { margin-right: 16px; color: #89dceb; }
