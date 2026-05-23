@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ user.name }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="card">
+        <h1>{{ user.name }}</h1>
+        <h2>{{ user.title }}</h2>
+        <p>{{ user.bio }}</p>
+
+        <h3>Skills</h3>
+        <ul>
+        {% for skill in user.skills %}
+            <li>{{ skill }}</li>
+        {% endfor %}
+        </ul>
+
+        <p>Days completed: <strong>{{ user.days_done }}/100</strong></p>
+
+        <div class="links">
+            <a href="mailto:{{ user.email }}">Email</a>
+            <a href="{{ user.github }}" target="_blank">GitHub</a>
+        </div>
+    </div>
+    <!-- TODO: add your own styling in static/style.css -->
+</body>
+</html>

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head><title>Guess the Number</title></head>
+<body>
+    <h1>Guess a number between 1 and {{ limit }}</h1>
+    <!-- TODO: make each number 1-limit a clickable link to /guess/{number} -->
+    {% for n in range(1, limit + 1) %}
+        <a href="/guess/{{ n }}">{{ n }}</a>
+    {% endfor %}
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!-- ============================================================
+     DAY 42 — Intermediate HTML
+     PROJECT: Personal Portfolio Page (HTML only)
+     ============================================================
+
+     SKILLS TODAY:
+       <form>                → collect user input
+       <input type="text/email/submit/checkbox/radio">
+       <textarea>            → multi-line text input
+       <select> / <option>   → dropdown
+       <table>               → tabular data
+       <div>                 → generic block container
+       <span>                → generic inline container
+       id="name"             → unique identifier
+       class="name"          → reusable grouping (for CSS tomorrow)
+       HTML entities         → &amp; &lt; &gt; &copy; &nbsp;
+
+     ============================================================ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <div id="header">
+        <h1>My Developer Portfolio</h1>
+        <p>100 Days of Code — Work in Progress</p>
+    </div>
+
+    <hr>
+
+    <!-- TODO 1: Projects table -->
+    <h2>Projects</h2>
+    <table border="1" cellpadding="8">
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Project</th>
+                <th>Skills Used</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Name Generator</td>
+                <td>print, input, strings</td>
+            </tr>
+            <!-- TODO: add rows for days 2, 3, and a few more -->
+        </tbody>
+    </table>
+
+    <hr>
+
+    <!-- TODO 2: Contact form -->
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Your name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="your@email.com"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+
+        <!-- TODO: add a dropdown asking "How did you find me?" -->
+        <!-- <select name="source"> <option>...</option> </select> -->
+
+        <input type="submit" value="Send">
+    </form>
+
+</body>
+</html>
