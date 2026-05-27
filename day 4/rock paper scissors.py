@@ -59,18 +59,24 @@ art = [rock, paper, scissors]
 # Store their answer in a variable called player_choice (convert to int)
 # Print the art for the player's choice using art[player_choice]
 
-player_choice = None  # replace this line
+player_choice = int(input("What is thy choice? rock paper or scissor?(0,1,2)"))
+
+if player_choice >= 3 or player_choice <= -1:
+    print("Invalid choice. You lose.")
+else:
+    print(art[player_choice])
 
 
-# --------------------------------------------------
-#  TODO 2: Generate the computer's choice
-# --------------------------------------------------
-# Use random.randint(0, 2) to get a random number 0-2
-# Store it in computer_choice
-# Print "Computer chose:" and the art for the computer's choice
+    # --------------------------------------------------
+    #  TODO 2: Generate the computer's choice
+    # --------------------------------------------------
+    # Use random.randint(0, 2) to get a random number 0-2
+    # Store it in computer_choice
+    # Print "Computer chose:" and the art for the computer's choice
 
-computer_choice = None  # replace this line
-
+    computer_choice = random.randint(0,2)
+    print("computer chose:")
+    print(art[computer_choice])
 
 # --------------------------------------------------
 #  TODO 3: Decide the winner
@@ -89,7 +95,16 @@ computer_choice = None  # replace this line
 
 # your logic here
 
-
+    if player_choice == computer_choice:
+        print("it's a draw")
+    elif player_choice == 0 and computer_choice == 2:
+        print("you win")
+    elif player_choice == 2 and computer_choice == 1:
+        print("you win")
+    elif player_choice == 1 and computer_choice == 0:
+        print("you win")
+    else:
+        print("you lose")
 # ============================================================
 #  STRETCH GOALS
 # ============================================================
