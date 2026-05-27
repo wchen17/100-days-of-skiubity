@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 87 — Portfolio Project
+#  DAY 87: Portfolio Project
 #  PROJECT: Café & Wifi Website (full stack)
 # ============================================================
 #

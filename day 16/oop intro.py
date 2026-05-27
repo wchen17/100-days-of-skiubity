@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 16 — Object-Oriented Programming
+#  DAY 16: Object-Oriented Programming
 #  PROJECT: OOP Concepts + Coffee Machine (OOP version begins)
 # ============================================================
 #
@@ -40,7 +40,7 @@ dog2 = Dog("Bella", 5)
 
 dog1.bark()
 dog2.birthday()
-print(dog1.age)   # 3 — dog1 is unaffected by dog2's birthday
+print(dog1.age)   # 3: dog1 is unaffected by dog2's birthday
 
 
 # --------------------------------------------------

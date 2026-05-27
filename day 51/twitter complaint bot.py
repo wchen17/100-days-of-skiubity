@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 51 — Selenium Bot
+#  DAY 51: Selenium Bot
 #  PROJECT: Internet Speed Twitter Complaint Bot
 # ============================================================
 #

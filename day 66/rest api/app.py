@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 66 — Building a REST API with Flask
+#  DAY 66: Building a REST API with Flask
 #  PROJECT: Cafe Finder API
 # ============================================================
 #

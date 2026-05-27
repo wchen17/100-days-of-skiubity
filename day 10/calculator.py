@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 10 — Functions with Return Values
+#  DAY 10: Functions with Return Values
 #  PROJECT: Calculator
 # ============================================================
 #
@@ -15,7 +15,7 @@
 #  TODO 1: Write the four maths functions
 # --------------------------------------------------
 # Each takes two numbers (n1, n2) and RETURNS the result.
-# Do NOT print inside them — just return.
+# Do NOT print inside them: just return.
 
 def add(n1, n2):
     pass  # TODO: return n1 + n2
@@ -27,7 +27,7 @@ def multiply(n1, n2):
     pass  # TODO
 
 def divide(n1, n2):
-    pass  # TODO: handle division by zero — return None or print a warning
+    pass  # TODO: handle division by zero: return None or print a warning
 
 
 # --------------------------------------------------

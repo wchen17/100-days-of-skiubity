@@ -1,9 +1,9 @@
 # ============================================================
-#  DAY 14 — Capstone: Beginner Phase
+#  DAY 14: Capstone: Beginner Phase
 #  PROJECT: Higher or Lower (Instagram Follower Game)
 # ============================================================
 #
-#  CAPSTONE — uses EVERYTHING from Days 1-13:
+#  CAPSTONE: uses EVERYTHING from Days 1-13:
 #    random, lists, dicts, functions, return values, loops, scope
 #
 #  GAME RULES:
@@ -16,7 +16,7 @@
 
 import random
 
-# Sample data — each entry: name, description, country, follower_count
+# Sample data: each entry: name, description, country, follower_count
 data = [
     {"name": "Instagram",      "description": "Social media platform", "country": "USA",   "follower_count": 346},
     {"name": "Cristiano Ronaldo","description":"Footballer",           "country": "Portugal","follower_count": 475},
@@ -66,7 +66,7 @@ def check_answer(guess, a_followers, b_followers):
 
 
 # --------------------------------------------------
-#  TODO 3: game() — main game loop
+#  TODO 3: game(): main game loop
 # --------------------------------------------------
 # Print logo
 # Pick a random account for A

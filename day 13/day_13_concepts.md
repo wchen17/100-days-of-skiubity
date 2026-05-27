@@ -2,10 +2,6 @@
 
 No project, no new syntax. This is a method day, and it's one of the most useful in the whole course. Your Day 4 always-lose bug is exactly what this day prevents. WATCH the debugger video; the rest reads fine here.
 
-## Prerequisites (builds on)
-
-All prior days. The bugs live in code that uses Days 1-12 concepts, so you debug what you already know.
-
 ## Practice exercises (do these instead of a project)
 
 The whole day is exercises. Fix intentionally broken versions of earlier programs (Odd/Even, Leap Year, FizzBuzz, an average function) using the six-step process below. No new code, just repair. Force yourself to predict the bug before running, then confirm with the debugger.

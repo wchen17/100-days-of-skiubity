@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 69 — Blog Capstone Part 4: Multi-User Blog
+#  DAY 69: Blog Capstone Part 4: Multi-User Blog
 #  PROJECT: Full blog with registration, login, comments
 # ============================================================
 #

@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 86 — Portfolio Project
+#  DAY 86: Portfolio Project
 #  PROJECT: Breakout Game (Atari classic)
 # ============================================================
 #

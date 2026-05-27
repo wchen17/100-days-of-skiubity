@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 30 — Error Handling & JSON
+#  DAY 30: Error Handling & JSON
 #  PROJECT: Improved Password Manager (search + JSON storage)
 # ============================================================
 #
@@ -81,7 +81,7 @@ def find_password():
 
 
 # --------------------------------------------------
-#  TODO 3: generate_password() — same as Day 29
+#  TODO 3: generate_password(): same as Day 29
 # --------------------------------------------------
 def generate_password():
     letters = list(string.ascii_letters)

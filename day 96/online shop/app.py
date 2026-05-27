@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 96 — Portfolio Project
+#  DAY 96: Portfolio Project
 #  PROJECT: Simple Online Shop with Stripe Payments
 # ============================================================
 #
@@ -86,7 +86,7 @@ def add_to_cart(product_id):
 
 
 # --------------------------------------------------
-#  TODO 2: /checkout — create a Stripe payment intent
+#  TODO 2: /checkout: create a Stripe payment intent
 # --------------------------------------------------
 @app.route("/checkout", methods=["POST"])
 def checkout():

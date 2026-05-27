@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 73 — Data Aggregation & Merging
+#  DAY 73: Data Aggregation & Merging
 #  PROJECT: LEGO Dataset Analysis
 # ============================================================
 #
@@ -11,7 +11,7 @@
 #    - Pivot tables: df.pivot_table()
 #    - Reshaping: df.melt()
 #
-#  Dataset: LEGO database (rebrickable.com/downloads — free)
+#  Dataset: LEGO database (rebrickable.com/downloads: free)
 #  For practice, use a mini version below.
 #
 # ============================================================

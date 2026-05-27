@@ -1,6 +1,6 @@
 # ============================================================
-#  DAY 99 — Portfolio Project
-#  PROJECT: Data Analysis — Fatal Police Encounters in the US
+#  DAY 99: Portfolio Project
+#  PROJECT: Data Analysis: Fatal Police Encounters in the US
 # ============================================================
 #
 #  SKILLS USED: pandas, seaborn, plotly, statistical analysis
@@ -14,9 +14,9 @@
 #  QUESTIONS TO ANSWER:
 #    1. How many incidents per year?
 #    2. Breakdown by race (adjusted for population share)?
-#    3. By state — choropleth map
+#    3. By state: choropleth map
 #    4. By age distribution
-#    5. Trend over time — is it increasing or decreasing?
+#    5. Trend over time: is it increasing or decreasing?
 #
 # ============================================================
 
@@ -43,19 +43,19 @@ print(df.groupby("Year").size())
 
 
 # --------------------------------------------------
-#  TODO 2: By race — bar chart
+#  TODO 2: By race: bar chart
 # --------------------------------------------------
 # sns.countplot(data=df, x="Race", order=df["Race"].value_counts().index)
 
 
 # --------------------------------------------------
-#  TODO 3: Age distribution — histogram + KDE
+#  TODO 3: Age distribution: histogram + KDE
 # --------------------------------------------------
 # sns.histplot(df["Age"], kde=True, bins=10)
 
 
 # --------------------------------------------------
-#  TODO 4: Armed status breakdown — pie chart
+#  TODO 4: Armed status breakdown: pie chart
 # --------------------------------------------------
 # armed_counts = df["Armed"].value_counts()
 # plt.pie(armed_counts.values, labels=armed_counts.index, autopct="%1.1f%%")

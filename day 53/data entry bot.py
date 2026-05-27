@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 53 — Web Scraping Capstone
+#  DAY 53: Web Scraping Capstone
 #  PROJECT: Automated Data Entry (Zillow → Google Form)
 # ============================================================
 #
@@ -20,7 +20,7 @@ import time
 # --------------------------------------------------
 #  TODO 1: Scrape rental listings from Zillow (or similar site)
 # --------------------------------------------------
-# Some sites block scrapers — use https://appbrewery.github.io/Zillow-Clone/
+# Some sites block scrapers: use https://appbrewery.github.io/Zillow-Clone/
 # (a practice clone made for this exercise)
 
 ZILLOW_CLONE = "https://appbrewery.github.io/Zillow-Clone/"

@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 17 — OOP: The Quiz Project
+#  DAY 17: OOP: The Quiz Project
 #  PROJECT: True/False Quiz Game (multi-file OOP)
 # ============================================================
 #

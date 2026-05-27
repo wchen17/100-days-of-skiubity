@@ -1,4 +1,4 @@
-# Day 70 — Git & Deployment
+# Day 70: Git & Deployment
 
 ## Skills Today
 - Git: branches, merging, .gitignore

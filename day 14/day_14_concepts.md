@@ -2,10 +2,6 @@
 
 No new syntax. Final beginner-phase capstone, integrating Days 1-13. Like Day 11, watch the requirements only and build from blank.
 
-## Prerequisites (builds on)
-
-Days 1-13, especially Day 9 (list of dicts), Day 10 (functions that return), and the Day 5 score-tracking pattern.
-
 ## Practice exercises (do these before the project)
 
 No standalone exercises. The Higher Lower game is the exercise, built from the requirements video with a walkthrough as the answer key. Attempt from blank before opening the solution.

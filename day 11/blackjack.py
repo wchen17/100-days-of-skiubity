@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 11 — Capstone Project
+#  DAY 11: Capstone Project
 #  PROJECT: Blackjack
 # ============================================================
 #
@@ -20,32 +20,32 @@
 import random
 from art import logo   # TODO: create an art.py file with a logo string (optional)
 
-# Deck — infinite shoe (we just pick random cards each time)
+# Deck: infinite shoe (we just pick random cards each time)
 cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 
 
 # --------------------------------------------------
-#  TODO 1: deal_card() — returns one random card from cards
+#  TODO 1: deal_card(): returns one random card from cards
 # --------------------------------------------------
 def deal_card():
     pass
 
 
 # --------------------------------------------------
-#  TODO 2: calculate_score(hand) — returns the score
+#  TODO 2: calculate_score(hand): returns the score
 # --------------------------------------------------
 # hand is a list of card values
 # Sum them up
 # If sum > 21 and 11 is in the hand → replace the 11 with a 1
 # Special rule: if hand has exactly 2 cards and sums to 21 → return 0
-#   (0 signals a natural Blackjack — unbeatable hand)
+#   (0 signals a natural Blackjack: unbeatable hand)
 
 def calculate_score(hand):
     pass
 
 
 # --------------------------------------------------
-#  TODO 3: compare(user_score, computer_score) — print winner
+#  TODO 3: compare(user_score, computer_score): print winner
 # --------------------------------------------------
 # Handle these cases in order:
 #   both == 0           → Draw (both have Blackjack)
@@ -62,7 +62,7 @@ def compare(user_score, computer_score):
 
 
 # --------------------------------------------------
-#  TODO 4: play_game() — the main game function
+#  TODO 4: play_game(): the main game function
 # --------------------------------------------------
 # Deal 2 cards to both player and computer
 # Show player's cards + score; show only computer's FIRST card
@@ -89,7 +89,7 @@ while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == 'y'
 # ============================================================
 #  STRETCH GOALS
 # ============================================================
-#  1. Add betting — start with $100, wager before each hand
+#  1. Add betting: start with $100, wager before each hand
 #  2. Add splitting (when you have two of the same card)
 #  3. Add a "double down" option
 # ============================================================

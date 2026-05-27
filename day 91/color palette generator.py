@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 91 — Portfolio Project
+#  DAY 91: Portfolio Project
 #  PROJECT: Image to Colour Palette Generator
 # ============================================================
 #

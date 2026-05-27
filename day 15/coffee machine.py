@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 15 — Local Dev Environment & Procedural Programming
+#  DAY 15: Local Dev Environment & Procedural Programming
 #  PROJECT: Coffee Machine (procedural version)
 # ============================================================
 #

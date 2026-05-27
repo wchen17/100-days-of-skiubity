@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 56 — Static Files & Templates
+#  DAY 56: Static Files & Templates
 #  PROJECT: Personal Name Card Website
 # ============================================================
 #
@@ -25,7 +25,7 @@ user = {
     "title":      "Aspiring Python Developer",
     "email":      "apexofficial21@gmail.com",
     "github":     "https://github.com/wchen17",
-    "bio":        "100 Days of Code — building skills one day at a time.",
+    "bio":        "100 Days of Code: building skills one day at a time.",
     "skills":     ["Python", "Flask", "Selenium", "APIs", "Data Science"],
     "days_done":  56,
 }

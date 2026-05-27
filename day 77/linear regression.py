@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 77 — Linear Regression & Seaborn
+#  DAY 77: Linear Regression & Seaborn
 #  PROJECT: Predict values with a regression line
 # ============================================================
 #
@@ -67,7 +67,7 @@ model = LinearRegression()
 #  TODO 4: Residuals analysis
 # --------------------------------------------------
 # residuals = y - model.predict(X)
-# Plot a histogram of residuals — should be roughly normal
+# Plot a histogram of residuals: should be roughly normal
 
 
 # ============================================================

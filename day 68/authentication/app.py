@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 68 — User Authentication with Flask
+#  DAY 68: User Authentication with Flask
 #  PROJECT: Secrets page (login required)
 # ============================================================
 #
@@ -97,7 +97,7 @@ def login():
 
 
 # --------------------------------------------------
-#  Secrets page — only logged-in users can see this
+#  Secrets page: only logged-in users can see this
 # --------------------------------------------------
 @app.route("/secrets")
 @login_required

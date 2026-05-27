@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 19 — Higher Order Functions & Event Listeners
+#  DAY 19: Higher Order Functions & Event Listeners
 #  PROJECT: Turtle Etch-A-Sketch + Turtle Race
 # ============================================================
 #

@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 23 — Capstone: Turtle Crossing Game
+#  DAY 23: Capstone: Turtle Crossing Game
 #  PROJECT: Frogger-style road crossing game
 # ============================================================
 #

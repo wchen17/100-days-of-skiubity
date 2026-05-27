@@ -2,10 +2,6 @@
 
 Read this instead of watching all 7 videos. Total watch time is ~40 min; this is a 3 min read. Watch only the two flagged WATCH below.
 
-## Prerequisites (builds on)
-
-Day 2 (type conversion, `int()`, f-strings) and Day 3 (if/elif/else, which you'll use for the win comparison).
-
 ## Practice exercises (do these before the project)
 
 These are the reps. Attempt each in a scratch file before Rock Paper Scissors; the project just integrates them.

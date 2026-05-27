@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 5 — Python Loops
+#  DAY 5: Python Loops
 #  PROJECT: Password Generator
 # ============================================================
 #
@@ -43,7 +43,7 @@ print("Welcome to the Password Generator!")
 # Loop nr_letters times → pick a random letter, add to password string
 # Loop nr_symbols times → pick a random symbol, add to password string
 # Loop nr_numbers times → pick a random number, add to password string
-# Print the result — this is the EASY level (characters in order)
+# Print the result: this is the EASY level (characters in order)
 
 password_easy = ""
 # your loops here
@@ -70,7 +70,7 @@ print(f"Hard password: {password_hard}")
 #  STRETCH GOALS
 # ============================================================
 #  1. Let the user generate multiple passwords in a row
-#     using a while loop — stop when they type "quit"
+#     using a while loop: stop when they type "quit"
 #  2. Add a strength checker: count letters/symbols/numbers
 #     and print "Weak / Medium / Strong"
 #  3. Let the user set a minimum password length instead of

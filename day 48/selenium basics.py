@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 48 — Selenium WebDriver
+#  DAY 48: Selenium WebDriver
 #  PROJECT: Automate a Browser + Game Bot
 # ============================================================
 #
@@ -64,7 +64,7 @@ driver.quit()
 # time.sleep(5)   # wait for page to load
 # cookie = driver.find_element(By.ID, "bigCookie")
 
-# TODO: 5-minute loop — click cookie, check upgrades every 60 seconds
+# TODO: 5-minute loop: click cookie, check upgrades every 60 seconds
 
 
 # ============================================================

@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 21 — Snake Game Part 2
+#  DAY 21: Snake Game Part 2
 #  PROJECT: Snake Game (Inheritance, List Slicing, Collision)
 # ============================================================
 #
@@ -11,7 +11,7 @@
 #    - Collision detection: distance() method on Turtle
 #    - Writing classes in separate files and importing them
 #
-#  BUILD ON DAY 20 — add these three classes:
+#  BUILD ON DAY 20: add these three classes:
 #    Food      → extends Turtle, refreshes to random position
 #    Scoreboard→ extends Turtle, displays + updates score
 #    Then wire collision detection into the game loop
@@ -129,6 +129,6 @@ while game_is_on:
     # if head x or y goes beyond ±290 → scoreboard.reset(), snake reset
 
     # TODO: Self collision
-    # loop through segments[1:] — if head gets within 10 of any segment → reset
+    # loop through segments[1:]: if head gets within 10 of any segment → reset
 
 screen.exitonclick()

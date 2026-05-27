@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 6 — Python Functions & Reeborg's World
+#  DAY 6: Python Functions & Reeborg's World
 #  PROJECT: Maze Solver (simulated with functions)
 # ============================================================
 #
@@ -41,10 +41,10 @@ def turn_left():
     print("Turning left")
 
 def turn_right():
-    pass  # TODO: replace pass — call turn_left() 3 times
+    pass  # TODO: replace pass: call turn_left() 3 times
 
 def turn_around():
-    pass  # TODO: replace pass — call turn_left() twice
+    pass  # TODO: replace pass: call turn_left() twice
 
 
 # --------------------------------------------------
@@ -69,7 +69,7 @@ def jump():
 #   → go forward 1 step  → FINISH
 #
 # Write out the solution by CALLING your functions.
-# Don't repeat raw print statements — use the functions you made.
+# Don't repeat raw print statements: use the functions you made.
 
 def move():
     print("Moving forward")

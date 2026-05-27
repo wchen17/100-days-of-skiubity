@@ -2,10 +2,6 @@
 
 First intermediate day. Two parts: setting up a local environment (you've already done this in VS Codium, so most of it is redundant for you), and building the Coffee Machine, which is the procedural setup for the Day 16 OOP refactor.
 
-## Prerequisites (builds on)
-
-Days 1-14, especially Day 9 (nested dicts for the menu and resources) and Day 10 (functions that return).
-
 ## Practice exercises (do these before the project)
 
 No standalone exercises. The Coffee Machine is built from a requirements brief. This is the procedural "before" version that Day 16 refactors into OOP, so the real exercise is building it cleanly enough that the Day 16 refactor is illuminating rather than a rewrite.

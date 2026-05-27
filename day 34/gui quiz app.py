@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 34 — API Practice + GUI
+#  DAY 34: API Practice + GUI
 #  PROJECT: Trivia Quiz App (Open Trivia DB + Tkinter)
 # ============================================================
 #

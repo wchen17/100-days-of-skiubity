@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 28 — Tkinter + Dynamic Typing
+#  DAY 28: Tkinter + Dynamic Typing
 #  PROJECT: Pomodoro Focus Timer
 # ============================================================
 #
@@ -97,7 +97,7 @@ window.config(padx=100, pady=50, bg=YELLOW)
 title_label = tk.Label(text="Timer", fg=GREEN, bg=YELLOW, font=(FONT_NAME, 35, "bold"))
 title_label.grid(row=0, column=1)
 
-# Canvas with tomato image (optional — use a placeholder rectangle if no image)
+# Canvas with tomato image (optional: use a placeholder rectangle if no image)
 canvas = tk.Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
 # tomato_img = tk.PhotoImage(file="tomato.png")   # uncomment if you have the image
 # canvas.create_image(100, 112, image=tomato_img)

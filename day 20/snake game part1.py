@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 20 — Snake Game Part 1
+#  DAY 20: Snake Game Part 1
 #  PROJECT: Snake Game (Animation & Coordinates)
 # ============================================================
 #
@@ -27,7 +27,7 @@ screen = turtle.Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
 screen.title("Snake")
-screen.tracer(0)   # turn off animation — we call screen.update() manually
+screen.tracer(0)   # turn off animation: we call screen.update() manually
 
 STARTING_POSITIONS = [(0, 0), (-20, 0), (-40, 0)]
 MOVE_DISTANCE      = 20

@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 82 — Portfolio Project
+#  DAY 82: Portfolio Project
 #  PROJECT: Personal Portfolio Website
 # ============================================================
 #

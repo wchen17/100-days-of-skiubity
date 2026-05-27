@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 33 — APIs: Endpoints, Parameters, HTTP Codes
+#  DAY 33: APIs: Endpoints, Parameters, HTTP Codes
 #  PROJECT: ISS Overhead Notifier
 # ============================================================
 #
@@ -69,7 +69,7 @@ def is_night():
 
 
 # --------------------------------------------------
-#  TODO 3: Main loop — check every 60 seconds
+#  TODO 3: Main loop: check every 60 seconds
 # --------------------------------------------------
 # If is_iss_overhead() AND is_night():
 #   Send email: "Look Up! ISS is above you!"
@@ -77,7 +77,7 @@ def is_night():
 
 while True:
     if is_iss_overhead() and is_night():
-        print("ISS is overhead and it's dark — sending email!")
+        print("ISS is overhead and it's dark: sending email!")
         # TODO: send email with smtplib (same as Day 32)
     else:
         print("ISS not visible right now.")

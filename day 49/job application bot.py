@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 49 — Selenium Bot
+#  DAY 49: Selenium Bot
 #  PROJECT: Automated Job Application Bot (LinkedIn Easy Apply)
 # ============================================================
 #

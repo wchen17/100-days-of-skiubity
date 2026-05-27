@@ -2,10 +2,6 @@
 
 New-syntax day. Concept gate at the bottom: don't start the cipher until parameters click.
 
-## Prerequisites (builds on)
-
-Day 6 (defining and calling functions), Day 3 (conditionals), Day 5 (loops). Today adds inputs to those functions.
-
 ## Practice exercises (do these before the project)
 
 - **Life in Weeks:** given an age, print how many days, weeks, and months remain assuming a 90-year life. Tests writing a function that takes an input and computes from it.

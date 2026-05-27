@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 9 — Dictionaries & Nesting
+#  DAY 9: Dictionaries & Nesting
 #  PROJECT: Secret Auction
 # ============================================================
 #
@@ -54,6 +54,6 @@ find_highest_bidder(bids)
 # ============================================================
 #  1. Store each bid as a dict itself:
 #       bids[name] = {"bid": amount, "email": email}
-#  2. Handle ties — what if two people bid the same highest amount?
+#  2. Handle ties: what if two people bid the same highest amount?
 #  3. Show a sorted leaderboard of all bids after the winner
 # ============================================================

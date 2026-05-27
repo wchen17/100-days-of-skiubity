@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 60 — POST Requests & HTML Forms in Flask
+#  DAY 60: POST Requests & HTML Forms in Flask
 #  PROJECT: Contact form that sends an email
 # ============================================================
 #

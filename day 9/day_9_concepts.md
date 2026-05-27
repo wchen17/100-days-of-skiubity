@@ -2,10 +2,6 @@
 
 ~25 min of video, ~3 min here.
 
-## Prerequisites (builds on)
-
-Day 4 (lists), Day 5 (loops), Day 8 (functions with inputs).
-
 ## Practice exercises (do these before the project)
 
 - **Grading Program:** given a dict of student names to numeric scores, build a new dict mapping each name to a letter grade using score ranges. Tests looping a dict with `.items()`, conditionals for the ranges, and building a second dict from the first.

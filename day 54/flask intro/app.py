@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 54 — Flask Web Framework Intro
+#  DAY 54: Flask Web Framework Intro
 #  PROJECT: Your first Flask web server
 # ============================================================
 #
@@ -52,7 +52,7 @@ def home():
 
 
 # --------------------------------------------------
-#  TODO 3: /about route — render an HTML template
+#  TODO 3: /about route: render an HTML template
 # --------------------------------------------------
 # Create templates/about.html (see below)
 # Use render_template("about.html")

@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 7 — Combining Skills
+#  DAY 7: Combining Skills
 #  PROJECT: Hangman
 # ============================================================
 #
@@ -15,11 +15,11 @@
 
 import random
 
-# Word bank — the game picks one of these
+# Word bank: the game picks one of these
 word_list = ["ardvark", "baboon", "camel", "python", "javascript",
              "keyboard", "monitor", "algorithm", "variable", "function"]
 
-# Hangman art — each stage is one fewer life
+# Hangman art: each stage is one fewer life
 HANGMAN_PICS = ['''
   +---+
   |   |

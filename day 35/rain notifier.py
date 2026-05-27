@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 35 — API Authentication & Environment Variables
+#  DAY 35: API Authentication & Environment Variables
 #  PROJECT: Rain Notifier (SMS alert for rain today)
 # ============================================================
 #
@@ -40,7 +40,7 @@ MY_LONG = -0.127758
 # GET https://api.openweathermap.org/data/2.5/forecast
 # params: lat, lon, appid, cnt=4 (next 4 x 3-hour slots = 12 hours)
 # Inspect response.json() to find the list of forecasts
-# Each entry has "weather"[0]["id"] — condition code
+# Each entry has "weather"[0]["id"]: condition code
 
 params = {
     "lat":   MY_LAT,

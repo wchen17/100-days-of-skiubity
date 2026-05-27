@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 3 ASSIGNMENT — If / Elif / Else  (Adventure Game)
+#  DAY 3 ASSIGNMENT: If / Elif / Else  (Adventure Game)
 # ============================================================
 #
 #  WHAT YOU'RE LEARNING TODAY:
@@ -12,7 +12,7 @@
 #
 #  WHY AN ADVENTURE GAME?
 #    Every choice the player makes is just an if/elif/else chain.
-#    Your meme RPG is built on thousands of these — this is that concept
+#    Your meme RPG is built on thousands of these: this is that concept
 #    stripped down so you can *see* the skeleton before the muscle goes on.
 #
 #  GOAL: finish the TODOs so the game has at least 2 full story branches,
@@ -28,7 +28,7 @@ print("  2 - A suspiciously normal-looking door")
 first_choice = input("\nWhich door do you choose? (1 or 2): ")
 
 # --------------------------------------------------
-#  BRANCH A  — the blue door
+#  BRANCH A : the blue door
 # --------------------------------------------------
 if first_choice == "1":
     print("\nYou push open the glowing blue door.")
@@ -45,16 +45,16 @@ if first_choice == "1":
     # TODO: write the if/else for the trade choice
     # ----------
     # if trade_choice == "y":
-    #     print out what happens when you trade — do you get the sword?
+    #     print out what happens when you trade: do you get the sword?
     #     does something go wrong? You decide the outcome.
     # else:
-    #     print out what happens when you refuse —
+    #     print out what happens when you refuse:
     #     does the merchant get mad? Do you find another item?
     # ----------
 
 
 # --------------------------------------------------
-#  BRANCH B  — the normal-looking door
+#  BRANCH B : the normal-looking door
 # --------------------------------------------------
 elif first_choice == "2":
     print("\nYou open the suspiciously normal door.")
@@ -88,7 +88,7 @@ elif first_choice == "2":
 
 
 # --------------------------------------------------
-#  CATCH-ALL  — player typed something unexpected
+#  CATCH-ALL : player typed something unexpected
 # --------------------------------------------------
 else:
     print("uhhh, you cant do that.")

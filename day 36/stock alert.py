@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 36 — Stock API + News API
+#  DAY 36: Stock API + News API
 #  PROJECT: Stock Trading News Alert Bot
 # ============================================================
 #

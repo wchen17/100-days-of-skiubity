@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 83 — Portfolio Project
+#  DAY 83: Portfolio Project
 #  PROJECT: Tic-Tac-Toe with an AI opponent
 # ============================================================
 #

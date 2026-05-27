@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 37 — API POST Requests & Pixela
+#  DAY 37: API POST Requests & Pixela
 #  PROJECT: Habit Tracker (Graph your daily coding/exercise)
 # ============================================================
 #

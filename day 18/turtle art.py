@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 18 — Turtle Graphics & GUIs
+#  DAY 18: Turtle Graphics & GUIs
 #  PROJECT: Hirst Painting (dot art) + Shapes
 # ============================================================
 #

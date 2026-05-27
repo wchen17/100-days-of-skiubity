@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 59 — Bootstrap + Flask Blog (Capstone Part 2)
+#  DAY 59: Bootstrap + Flask Blog (Capstone Part 2)
 #  PROJECT: Full styled blog with real post data
 # ============================================================
 #

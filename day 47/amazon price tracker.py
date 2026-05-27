@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 47 — Web Scraping Project
+#  DAY 47: Web Scraping Project
 #  PROJECT: Amazon Price Tracker (email alert when price drops)
 # ============================================================
 #

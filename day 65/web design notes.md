@@ -1,4 +1,4 @@
-# Day 65 — Web Design Principles
+# Day 65: Web Design Principles
 
 ## What to Study Today
 

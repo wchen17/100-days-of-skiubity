@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 45 — Web Scraping with BeautifulSoup
+#  DAY 45: Web Scraping with BeautifulSoup
 #  PROJECT: Scrape a website and extract structured data
 # ============================================================
 #
@@ -71,7 +71,7 @@ all_books = []
 # ============================================================
 #  STRETCH GOALS
 # ============================================================
-#  1. Scrape https://quotes.toscrape.com/ — get quote text, author, tags
+#  1. Scrape https://quotes.toscrape.com/: get quote text, author, tags
 #  2. Find the top 5 rated books from the full 1000-book catalogue
 #  3. Automatically open the cheapest book's detail page
 # ============================================================

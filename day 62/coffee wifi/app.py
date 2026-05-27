@@ -1,6 +1,6 @@
 # ============================================================
-#  DAY 62 — WTForms + CSV
-#  PROJECT: Coffee & Wifi — "Where can I work remotely?" site
+#  DAY 62: WTForms + CSV
+#  PROJECT: Coffee & Wifi: "Where can I work remotely?" site
 # ============================================================
 #
 #  SKILLS TODAY:

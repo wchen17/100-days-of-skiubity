@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 29 — Tkinter App: Password Manager
+#  DAY 29: Tkinter App: Password Manager
 #  PROJECT: Password Manager with File Storage
 # ============================================================
 #

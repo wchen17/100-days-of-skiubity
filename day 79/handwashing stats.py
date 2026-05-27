@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 79 — Statistical Testing
+#  DAY 79: Statistical Testing
 #  PROJECT: Dr. Semmelweis Handwashing Discovery (t-test)
 # ============================================================
 #

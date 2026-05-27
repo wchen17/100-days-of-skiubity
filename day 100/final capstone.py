@@ -1,6 +1,6 @@
 # ============================================================
-#  DAY 100 — FINAL CAPSTONE 🎉
-#  PROJECT: Choose Your Own — Multivariable Regression or Personal Project
+#  DAY 100: FINAL CAPSTONE 🎉
+#  PROJECT: Choose Your Own: Multivariable Regression or Personal Project
 # ============================================================
 #
 #  OPTION A: Earnings Prediction (Multivariable Regression)
@@ -37,7 +37,7 @@ import matplotlib.pyplot as plt
 #  OPTION A: Census Earnings Classifier
 # --------------------------------------------------
 
-# Sample data (the real dataset has ~48,000 rows — download from UCI)
+# Sample data (the real dataset has ~48,000 rows: download from UCI)
 np.random.seed(42)
 n = 500
 df = pd.DataFrame({

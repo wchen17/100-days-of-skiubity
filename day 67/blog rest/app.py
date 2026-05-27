@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 67 — Blog Capstone Part 3: RESTful Routing
+#  DAY 67: Blog Capstone Part 3: RESTful Routing
 #  PROJECT: Blog with full CRUD via REST routes
 # ============================================================
 #

@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 32 — Email Automation & datetime
+#  DAY 32: Email Automation & datetime
 #  PROJECT: Automated Birthday Wisher
 # ============================================================
 #
@@ -25,7 +25,7 @@ import pandas
 import random
 
 MY_EMAIL    = "your_email@gmail.com"   # TODO: replace
-MY_PASSWORD = "your_app_password"      # TODO: replace — use env var in real use
+MY_PASSWORD = "your_app_password"      # TODO: replace: use env var in real use
 
 # Sample birthday data (replace with real CSV file)
 import io

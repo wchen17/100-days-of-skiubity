@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 78 — Multi-library Data Analysis
+#  DAY 78: Multi-library Data Analysis
 #  PROJECT: Nobel Prize Winners Dataset
 # ============================================================
 #
@@ -10,7 +10,7 @@
 #    - Choropleth map with plotly (prizes by country)
 #    - Sunburst / treemap charts
 #
-#  Dataset: from Kaggle "Nobel Prize" — or use sample below
+#  Dataset: from Kaggle "Nobel Prize": or use sample below
 #
 # ============================================================
 

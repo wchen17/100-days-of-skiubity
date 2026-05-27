@@ -1,10 +1,10 @@
 # ============================================================
-#  DAY 89 — Portfolio Project
+#  DAY 89: Portfolio Project
 #  PROJECT: Disappearing Text Writing App
 # ============================================================
 #
 #  CONCEPT: If you stop typing for 5 seconds, all text is erased.
-#  Forces you to keep writing without stopping — great for overcoming
+#  Forces you to keep writing without stopping: great for overcoming
 #  writer's block and practicing stream-of-consciousness writing.
 #
 #  SKILLS USED: Tkinter, after(), cancel_after(), Text widget events

@@ -2,10 +2,6 @@
 
 ~25 min of video, ~3 min here. One distinction here matters more than anything since Day 6.
 
-## Prerequisites (builds on)
-
-Day 8 (functions with inputs), Day 9 (dicts). Today the functions hand a value back instead of just printing.
-
 ## Practice exercises (do these before the project)
 
 - **Leap Year (as a function):** write `is_leap(year)` that **returns** True/False using the rule: divisible by 4, except not by 100, unless also by 400. The point is to return the boolean, not print it, so the caller can use it. This is the exact return-vs-print lesson in practice.

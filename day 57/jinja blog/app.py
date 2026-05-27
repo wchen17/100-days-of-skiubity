@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 57 — Jinja2 Templating
+#  DAY 57: Jinja2 Templating
 #  PROJECT: Blog with dynamic posts from an API
 # ============================================================
 #

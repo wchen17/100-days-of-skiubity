@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 72 — Data Visualisation with Matplotlib
+#  DAY 72: Data Visualisation with Matplotlib
 #  PROJECT: Programming Language Popularity Over Time
 # ============================================================
 #
@@ -44,7 +44,7 @@ plt.show()
 
 
 # --------------------------------------------------
-#  TODO 1: Bar chart — starting salaries by language
+#  TODO 1: Bar chart: starting salaries by language
 # --------------------------------------------------
 languages = ["Python", "JavaScript", "Java", "C++", "Go", "Rust"]
 salaries  = [90000, 82000, 88000, 95000, 105000, 110000]
@@ -53,7 +53,7 @@ salaries  = [90000, 82000, 88000, 95000, 105000, 110000]
 # Add value labels on each bar
 
 # --------------------------------------------------
-#  TODO 2: Pie chart — market share of databases
+#  TODO 2: Pie chart: market share of databases
 # --------------------------------------------------
 dbs    = ["PostgreSQL", "MySQL", "MongoDB", "SQLite", "Redis", "Other"]
 shares = [36, 29, 18, 8, 5, 4]
@@ -61,7 +61,7 @@ shares = [36, 29, 18, 8, 5, 4]
 # plt.pie(shares, labels=dbs, autopct="%1.1f%%", startangle=90)
 
 # --------------------------------------------------
-#  TODO 3: Subplot grid — 2x2 layout
+#  TODO 3: Subplot grid: 2x2 layout
 # --------------------------------------------------
 # Show all four chart types in a 2x2 grid:
 # Top-left: line, top-right: bar, bottom-left: pie, bottom-right: scatter

@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 71 — Pandas Data Exploration
+#  DAY 71: Pandas Data Exploration
 #  PROJECT: College Major vs Salary Analysis
 # ============================================================
 #

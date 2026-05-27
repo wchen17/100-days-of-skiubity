@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 46 — Web Scraping Project
+#  DAY 46: Web Scraping Project
 #  PROJECT: Spotify Time Machine (Billboard → Playlist)
 # ============================================================
 #

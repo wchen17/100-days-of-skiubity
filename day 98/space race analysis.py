@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 98 — Portfolio Project
+#  DAY 98: Portfolio Project
 #  PROJECT: Space Race Data Analysis
 # ============================================================
 #
@@ -13,7 +13,7 @@
 #    5. Cold War era vs post-Cold War launches
 #
 #  Dataset: "mission_launches.csv" from Maven Analytics / Kaggle
-#  (search "space missions" on Kaggle — it's free)
+#  (search "space missions" on Kaggle: it's free)
 #  For now, use the sample data below.
 #
 # ============================================================
@@ -61,7 +61,7 @@ df["Success"] = (df["Status"] == "Success").astype(int)
 
 
 # --------------------------------------------------
-#  TODO 4: Choropleth map — launches by country
+#  TODO 4: Choropleth map: launches by country
 # --------------------------------------------------
 # fig = px.choropleth(
 #     df.groupby("Location").size().reset_index(name="count"),

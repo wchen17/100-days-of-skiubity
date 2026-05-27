@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 84 — Portfolio Project
+#  DAY 84: Portfolio Project
 #  PROJECT: Image Watermarking Desktop App
 # ============================================================
 #

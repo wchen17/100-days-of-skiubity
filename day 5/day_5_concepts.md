@@ -2,10 +2,6 @@
 
 ~30 min of video, ~3 min here. Watch nothing unless a section below says so.
 
-## Prerequisites (builds on)
-
-Day 4 (lists) and Day 3 (conditionals).
-
 ## Practice exercises (do these before the project)
 
 - **Highest Score:** given a list of scores, loop through and print the largest. Tests the running-max pattern (a tracking variable updated inside the loop).

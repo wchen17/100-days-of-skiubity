@@ -1,9 +1,9 @@
 # ============================================================
-#  DAY 31 — Capstone: Intermediate Phase
+#  DAY 31: Capstone: Intermediate Phase
 #  PROJECT: Flash Card Language Learning App
 # ============================================================
 #
-#  CAPSTONE — everything from days 15-30:
+#  CAPSTONE: everything from days 15-30:
 #    OOP, Tkinter, pandas, JSON, file I/O, try/except
 #
 #  HOW IT WORKS:
@@ -113,7 +113,7 @@ window.mainloop()
 # ============================================================
 #  STRETCH GOALS
 # ============================================================
-#  1. Add more languages — load a different CSV based on user choice
+#  1. Add more languages: load a different CSV based on user choice
 #  2. Show a progress bar (words learned / total words)
 #  3. Add a "hard mode" where you type the translation instead of clicking
 # ============================================================

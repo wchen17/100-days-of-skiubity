@@ -2,10 +2,6 @@
 
 ~35 min of video, ~3 min here. One WATCH flagged.
 
-## Prerequisites (builds on)
-
-Day 5 (loops) and Day 3 (conditionals).
-
 ## Practice exercises (do these before the project)
 
 All in Reeborg's World (reeborg.ca/reeborg.html). Each is a rep on function reuse and loops:

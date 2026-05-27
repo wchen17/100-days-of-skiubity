@@ -2,10 +2,6 @@
 
 New-concept day. Scope is invisible until it bites you, so read this before the project.
 
-## Prerequisites (builds on)
-
-Day 6 (functions), Day 10 (return values). Scope is the rules for where the variables inside those functions live.
-
 ## Practice exercises (do these before the project)
 
 - **Prime Number Checker:** write a function that returns whether a number is prime by testing divisibility in a loop. Tests scope (the loop variables are local) and returning a result. Bonus: return early as soon as you find a divisor instead of checking all the way.

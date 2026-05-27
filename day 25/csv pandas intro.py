@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 25 — CSV Data & Pandas Introduction
+#  DAY 25: CSV Data & Pandas Introduction
 #  PROJECT: States Game (US States Quiz)
 # ============================================================
 #
@@ -97,5 +97,5 @@ guessed_states = []
 #  1. Use turtle to display a US map image and plot guessed states
 #     at their x,y coordinates
 #  2. Load states_to_learn.csv on startup to continue from last session
-#  3. Add a timer — how fast can you name all 50 states?
+#  3. Add a timer: how fast can you name all 50 states?
 # ============================================================

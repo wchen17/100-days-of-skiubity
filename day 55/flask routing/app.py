@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 55 — Flask Routing & HTML Parsing
+#  DAY 55: Flask Routing & HTML Parsing
 #  PROJECT: Higher or Lower Game (web version)
 # ============================================================
 #

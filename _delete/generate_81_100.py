@@ -4,7 +4,7 @@ files = {}
 
 files["day 81/morse code converter.py"] = """\
 # ============================================================
-#  DAY 81 — Portfolio Project
+#  DAY 81: Portfolio Project
 #  PROJECT: Text to Morse Code Converter (CLI tool)
 # ============================================================
 #
@@ -92,7 +92,7 @@ main()
 
 files["day 82/portfolio website/app.py"] = """\
 # ============================================================
-#  DAY 82 — Portfolio Project
+#  DAY 82: Portfolio Project
 #  PROJECT: Personal Portfolio Website
 # ============================================================
 #
@@ -184,7 +184,7 @@ if __name__ == "__main__":
 
 files["day 83/tic tac toe.py"] = """\
 # ============================================================
-#  DAY 83 — Portfolio Project
+#  DAY 83: Portfolio Project
 #  PROJECT: Tic-Tac-Toe with an AI opponent
 # ============================================================
 #
@@ -342,7 +342,7 @@ play()
 
 files["day 84/watermark tool.py"] = """\
 # ============================================================
-#  DAY 84 — Portfolio Project
+#  DAY 84: Portfolio Project
 #  PROJECT: Image Watermarking Desktop App
 # ============================================================
 #
@@ -449,7 +449,7 @@ root.mainloop()
 
 files["day 85/typing speed test.py"] = """\
 # ============================================================
-#  DAY 85 — Portfolio Project
+#  DAY 85: Portfolio Project
 #  PROJECT: Typing Speed Test App
 # ============================================================
 #
@@ -545,7 +545,7 @@ root.mainloop()
 
 files["day 86/breakout game.py"] = """\
 # ============================================================
-#  DAY 86 — Portfolio Project
+#  DAY 86: Portfolio Project
 #  PROJECT: Breakout Game (Atari classic)
 # ============================================================
 #
@@ -680,7 +680,7 @@ screen.exitonclick()
 
 files["day 87/cafe wifi website/app.py"] = """\
 # ============================================================
-#  DAY 87 — Portfolio Project
+#  DAY 87: Portfolio Project
 #  PROJECT: Café & Wifi Website (full stack)
 # ============================================================
 #
@@ -778,7 +778,7 @@ if __name__ == "__main__":
 
 files["day 88/todo app/app.py"] = """\
 # ============================================================
-#  DAY 88 — Portfolio Project
+#  DAY 88: Portfolio Project
 #  PROJECT: Todo / Agenda App
 # ============================================================
 #
@@ -882,12 +882,12 @@ if __name__ == "__main__":
 
 files["day 89/disappearing text.py"] = """\
 # ============================================================
-#  DAY 89 — Portfolio Project
+#  DAY 89: Portfolio Project
 #  PROJECT: Disappearing Text Writing App
 # ============================================================
 #
 #  CONCEPT: If you stop typing for 5 seconds, all text is erased.
-#  Forces you to keep writing without stopping — great for overcoming
+#  Forces you to keep writing without stopping: great for overcoming
 #  writer's block and practicing stream-of-consciousness writing.
 #
 #  SKILLS USED: Tkinter, after(), cancel_after(), Text widget events
@@ -982,7 +982,7 @@ root.mainloop()
 
 files["day 90/pdf to audiobook.py"] = """\
 # ============================================================
-#  DAY 90 — Portfolio Project
+#  DAY 90: Portfolio Project
 #  PROJECT: PDF to Audiobook Converter
 # ============================================================
 #
@@ -1004,7 +1004,7 @@ from tkinter import filedialog, messagebox
 import threading
 import os
 
-# Try pyttsx3 (offline TTS) — falls back gracefully if not installed
+# Try pyttsx3 (offline TTS): falls back gracefully if not installed
 try:
     import pyttsx3
     TTS_ENGINE = "pyttsx3"
@@ -1076,7 +1076,7 @@ class AudiobookApp:
         return pages
 
     # --------------------------------------------------
-    #  TODO 2: read_aloud() — run in a thread so UI stays responsive
+    #  TODO 2: read_aloud(): run in a thread so UI stays responsive
     # --------------------------------------------------
     # Extract pages, loop through each:
     #   Update page_label
@@ -1107,7 +1107,7 @@ class AudiobookApp:
             self.status.config(text="pyttsx3 not available. Use Save as MP3 instead.")
 
     # --------------------------------------------------
-    #  TODO 3: save_mp3() — use gTTS to save each page as mp3
+    #  TODO 3: save_mp3(): use gTTS to save each page as mp3
     # --------------------------------------------------
     def save_mp3(self):
         pass   # TODO
@@ -1124,7 +1124,7 @@ root.mainloop()
 
 files["day 91/color palette generator.py"] = """\
 # ============================================================
-#  DAY 91 — Portfolio Project
+#  DAY 91: Portfolio Project
 #  PROJECT: Image to Colour Palette Generator
 # ============================================================
 #
@@ -1230,7 +1230,7 @@ root.mainloop()
 
 files["day 92/web scraper tool.py"] = """\
 # ============================================================
-#  DAY 92 — Portfolio Project
+#  DAY 92: Portfolio Project
 #  PROJECT: Custom Web Scraper CLI Tool
 # ============================================================
 #
@@ -1336,7 +1336,7 @@ if __name__ == "__main__":
 
 files["day 94/space invaders/main.py"] = """\
 # ============================================================
-#  DAY 94 — Portfolio Project
+#  DAY 94: Portfolio Project
 #  PROJECT: Space Invaders (Turtle)
 # ============================================================
 #
@@ -1504,8 +1504,8 @@ screen.exitonclick()
 
 files["day 95/custom api/app.py"] = """\
 # ============================================================
-#  DAY 95 — Portfolio Project
-#  PROJECT: Custom REST API — Random Quote / Joke / Fact Service
+#  DAY 95: Portfolio Project
+#  PROJECT: Custom REST API: Random Quote / Joke / Fact Service
 # ============================================================
 #
 #  SKILLS USED: Flask, SQLAlchemy, REST, authentication, rate limiting
@@ -1609,7 +1609,7 @@ if __name__ == "__main__":
 
 files["day 96/online shop/app.py"] = """\
 # ============================================================
-#  DAY 96 — Portfolio Project
+#  DAY 96: Portfolio Project
 #  PROJECT: Simple Online Shop with Stripe Payments
 # ============================================================
 #
@@ -1696,7 +1696,7 @@ def add_to_cart(product_id):
 
 
 # --------------------------------------------------
-#  TODO 2: /checkout — create a Stripe payment intent
+#  TODO 2: /checkout: create a Stripe payment intent
 # --------------------------------------------------
 @app.route("/checkout", methods=["POST"])
 def checkout():
@@ -1722,7 +1722,7 @@ if __name__ == "__main__":
 
 files["day 97/percentage calculator.py"] = """\
 # ============================================================
-#  DAY 97 — Portfolio Project
+#  DAY 97: Portfolio Project
 #  PROJECT: Multi-purpose Percentage Calculator (CLI + GUI)
 # ============================================================
 #
@@ -1806,7 +1806,7 @@ root.mainloop()
 
 files["day 98/space race analysis.py"] = """\
 # ============================================================
-#  DAY 98 — Portfolio Project
+#  DAY 98: Portfolio Project
 #  PROJECT: Space Race Data Analysis
 # ============================================================
 #
@@ -1820,7 +1820,7 @@ files["day 98/space race analysis.py"] = """\
 #    5. Cold War era vs post-Cold War launches
 #
 #  Dataset: "mission_launches.csv" from Maven Analytics / Kaggle
-#  (search "space missions" on Kaggle — it's free)
+#  (search "space missions" on Kaggle: it's free)
 #  For now, use the sample data below.
 #
 # ============================================================
@@ -1868,7 +1868,7 @@ df["Success"] = (df["Status"] == "Success").astype(int)
 
 
 # --------------------------------------------------
-#  TODO 4: Choropleth map — launches by country
+#  TODO 4: Choropleth map: launches by country
 # --------------------------------------------------
 # fig = px.choropleth(
 #     df.groupby("Location").size().reset_index(name="count"),
@@ -1883,8 +1883,8 @@ print("\\nLaunches by country:\\n", by_country)
 
 files["day 99/police killings analysis.py"] = """\
 # ============================================================
-#  DAY 99 — Portfolio Project
-#  PROJECT: Data Analysis — Fatal Police Encounters in the US
+#  DAY 99: Portfolio Project
+#  PROJECT: Data Analysis: Fatal Police Encounters in the US
 # ============================================================
 #
 #  SKILLS USED: pandas, seaborn, plotly, statistical analysis
@@ -1898,9 +1898,9 @@ files["day 99/police killings analysis.py"] = """\
 #  QUESTIONS TO ANSWER:
 #    1. How many incidents per year?
 #    2. Breakdown by race (adjusted for population share)?
-#    3. By state — choropleth map
+#    3. By state: choropleth map
 #    4. By age distribution
-#    5. Trend over time — is it increasing or decreasing?
+#    5. Trend over time: is it increasing or decreasing?
 #
 # ============================================================
 
@@ -1927,19 +1927,19 @@ print(df.groupby("Year").size())
 
 
 # --------------------------------------------------
-#  TODO 2: By race — bar chart
+#  TODO 2: By race: bar chart
 # --------------------------------------------------
 # sns.countplot(data=df, x="Race", order=df["Race"].value_counts().index)
 
 
 # --------------------------------------------------
-#  TODO 3: Age distribution — histogram + KDE
+#  TODO 3: Age distribution: histogram + KDE
 # --------------------------------------------------
 # sns.histplot(df["Age"], kde=True, bins=10)
 
 
 # --------------------------------------------------
-#  TODO 4: Armed status breakdown — pie chart
+#  TODO 4: Armed status breakdown: pie chart
 # --------------------------------------------------
 # armed_counts = df["Armed"].value_counts()
 # plt.pie(armed_counts.values, labels=armed_counts.index, autopct="%1.1f%%")
@@ -1960,8 +1960,8 @@ print(df["Armed"].value_counts())
 
 files["day 100/final capstone.py"] = """\
 # ============================================================
-#  DAY 100 — FINAL CAPSTONE 🎉
-#  PROJECT: Choose Your Own — Multivariable Regression or Personal Project
+#  DAY 100: FINAL CAPSTONE 🎉
+#  PROJECT: Choose Your Own: Multivariable Regression or Personal Project
 # ============================================================
 #
 #  OPTION A: Earnings Prediction (Multivariable Regression)
@@ -1998,7 +1998,7 @@ import matplotlib.pyplot as plt
 #  OPTION A: Census Earnings Classifier
 # --------------------------------------------------
 
-# Sample data (the real dataset has ~48,000 rows — download from UCI)
+# Sample data (the real dataset has ~48,000 rows: download from UCI)
 np.random.seed(42)
 n = 500
 df = pd.DataFrame({
@@ -2105,4 +2105,4 @@ for filepath, content in files.items():
         f.write(content)
     print(f"Created: {filepath}")
 
-print("Done — Days 81-100 written.")
+print("Done: Days 81-100 written.")

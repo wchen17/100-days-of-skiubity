@@ -6,7 +6,7 @@ files = {}
 
 files["day 15/coffee machine.py"] = """\
 # ============================================================
-#  DAY 15 — Local Dev Environment & Procedural Programming
+#  DAY 15: Local Dev Environment & Procedural Programming
 #  PROJECT: Coffee Machine (procedural version)
 # ============================================================
 #
@@ -114,7 +114,7 @@ while is_on:
 
 files["day 16/oop intro.py"] = """\
 # ============================================================
-#  DAY 16 — Object-Oriented Programming
+#  DAY 16: Object-Oriented Programming
 #  PROJECT: OOP Concepts + Coffee Machine (OOP version begins)
 # ============================================================
 #
@@ -155,7 +155,7 @@ dog2 = Dog("Bella", 5)
 
 dog1.bark()
 dog2.birthday()
-print(dog1.age)   # 3 — dog1 is unaffected by dog2's birthday
+print(dog1.age)   # 3: dog1 is unaffected by dog2's birthday
 
 
 # --------------------------------------------------
@@ -220,7 +220,7 @@ account.get_balance()
 
 files["day 17/quiz project/quiz brain.py"] = """\
 # ============================================================
-#  DAY 17 — OOP: The Quiz Project
+#  DAY 17: OOP: The Quiz Project
 #  PROJECT: True/False Quiz Game (multi-file OOP)
 # ============================================================
 #
@@ -291,7 +291,7 @@ class Question:
 """
 
 files["day 17/quiz project/data.py"] = """\
-# data.py — question bank
+# data.py: question bank
 question_data = [
     {"text": "A slug's blood is green.", "answer": "True"},
     {"text": "The loudest animal is the African Elephant.", "answer": "False"},
@@ -309,7 +309,7 @@ question_data = [
 """
 
 files["day 17/quiz project/main.py"] = """\
-# main.py — run this file to play the quiz
+# main.py: run this file to play the quiz
 
 from question_model import Question
 from data import question_data
@@ -336,7 +336,7 @@ print(f"Your final score was: {quiz.score}/{len(question_bank)}")
 
 files["day 18/turtle art.py"] = """\
 # ============================================================
-#  DAY 18 — Turtle Graphics & GUIs
+#  DAY 18: Turtle Graphics & GUIs
 #  PROJECT: Hirst Painting (dot art) + Shapes
 # ============================================================
 #
@@ -438,7 +438,7 @@ screen.exitonclick()
 
 files["day 19/turtle event handling.py"] = """\
 # ============================================================
-#  DAY 19 — Higher Order Functions & Event Listeners
+#  DAY 19: Higher Order Functions & Event Listeners
 #  PROJECT: Turtle Etch-A-Sketch + Turtle Race
 # ============================================================
 #
@@ -546,7 +546,7 @@ screen.exitonclick()
 
 files["day 20/snake game part1.py"] = """\
 # ============================================================
-#  DAY 20 — Snake Game Part 1
+#  DAY 20: Snake Game Part 1
 #  PROJECT: Snake Game (Animation & Coordinates)
 # ============================================================
 #
@@ -574,7 +574,7 @@ screen = turtle.Screen()
 screen.setup(width=600, height=600)
 screen.bgcolor("black")
 screen.title("Snake")
-screen.tracer(0)   # turn off animation — we call screen.update() manually
+screen.tracer(0)   # turn off animation: we call screen.update() manually
 
 STARTING_POSITIONS = [(0, 0), (-20, 0), (-40, 0)]
 MOVE_DISTANCE      = 20
@@ -667,7 +667,7 @@ screen.exitonclick()
 
 files["day 21/snake game part2.py"] = """\
 # ============================================================
-#  DAY 21 — Snake Game Part 2
+#  DAY 21: Snake Game Part 2
 #  PROJECT: Snake Game (Inheritance, List Slicing, Collision)
 # ============================================================
 #
@@ -679,7 +679,7 @@ files["day 21/snake game part2.py"] = """\
 #    - Collision detection: distance() method on Turtle
 #    - Writing classes in separate files and importing them
 #
-#  BUILD ON DAY 20 — add these three classes:
+#  BUILD ON DAY 20: add these three classes:
 #    Food      → extends Turtle, refreshes to random position
 #    Scoreboard→ extends Turtle, displays + updates score
 #    Then wire collision detection into the game loop
@@ -797,14 +797,14 @@ while game_is_on:
     # if head x or y goes beyond ±290 → scoreboard.reset(), snake reset
 
     # TODO: Self collision
-    # loop through segments[1:] — if head gets within 10 of any segment → reset
+    # loop through segments[1:]: if head gets within 10 of any segment → reset
 
 screen.exitonclick()
 """
 
 files["day 22/pong game.py"] = """\
 # ============================================================
-#  DAY 22 — Pong Game
+#  DAY 22: Pong Game
 #  PROJECT: Classic Pong (2-player)
 # ============================================================
 #
@@ -943,7 +943,7 @@ screen.exitonclick()
 
 files["day 23/turtle crossing.py"] = """\
 # ============================================================
-#  DAY 23 — Capstone: Turtle Crossing Game
+#  DAY 23: Capstone: Turtle Crossing Game
 #  PROJECT: Frogger-style road crossing game
 # ============================================================
 #
@@ -1083,7 +1083,7 @@ screen.exitonclick()
 
 files["day 24/file io.py"] = """\
 # ============================================================
-#  DAY 24 — File I/O: Reading and Writing Files
+#  DAY 24: File I/O: Reading and Writing Files
 #  PROJECT: Mail Merge Letter Generator
 # ============================================================
 #
@@ -1173,7 +1173,7 @@ with open("invited_names.txt", "w") as f:
 
 files["day 25/csv pandas intro.py"] = """\
 # ============================================================
-#  DAY 25 — CSV Data & Pandas Introduction
+#  DAY 25: CSV Data & Pandas Introduction
 #  PROJECT: States Game (US States Quiz)
 # ============================================================
 #
@@ -1271,13 +1271,13 @@ guessed_states = []
 #  1. Use turtle to display a US map image and plot guessed states
 #     at their x,y coordinates
 #  2. Load states_to_learn.csv on startup to continue from last session
-#  3. Add a timer — how fast can you name all 50 states?
+#  3. Add a timer: how fast can you name all 50 states?
 # ============================================================
 """
 
 files["day 26/list comprehension.py"] = """\
 # ============================================================
-#  DAY 26 — List & Dictionary Comprehension
+#  DAY 26: List & Dictionary Comprehension
 #  PROJECT: NATO Phonetic Alphabet Converter
 # ============================================================
 #
@@ -1386,7 +1386,7 @@ nato_dict = {}  # TODO: use dict comprehension
 #   Convert to uppercase
 #   Use a list comprehension to build output:
 #     [nato_dict[letter] for letter in word]
-#   Handle KeyError — if input has numbers/spaces, try/except or if/else
+#   Handle KeyError: if input has numbers/spaces, try/except or if/else
 
 word = input("Enter a word: ").upper()
 # your comprehension + output here
@@ -1403,7 +1403,7 @@ word = input("Enter a word: ").upper()
 
 files["day 27/tkinter miles km.py"] = """\
 # ============================================================
-#  DAY 27 — Tkinter GUI & Layout
+#  DAY 27: Tkinter GUI & Layout
 #  PROJECT: Miles-to-Kilometres Converter
 # ============================================================
 #
@@ -1493,7 +1493,7 @@ window.mainloop()
 
 files["day 28/pomodoro timer.py"] = """\
 # ============================================================
-#  DAY 28 — Tkinter + Dynamic Typing
+#  DAY 28: Tkinter + Dynamic Typing
 #  PROJECT: Pomodoro Focus Timer
 # ============================================================
 #
@@ -1591,7 +1591,7 @@ window.config(padx=100, pady=50, bg=YELLOW)
 title_label = tk.Label(text="Timer", fg=GREEN, bg=YELLOW, font=(FONT_NAME, 35, "bold"))
 title_label.grid(row=0, column=1)
 
-# Canvas with tomato image (optional — use a placeholder rectangle if no image)
+# Canvas with tomato image (optional: use a placeholder rectangle if no image)
 canvas = tk.Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
 # tomato_img = tk.PhotoImage(file="tomato.png")   # uncomment if you have the image
 # canvas.create_image(100, 112, image=tomato_img)
@@ -1621,7 +1621,7 @@ window.mainloop()
 
 files["day 29/password manager.py"] = """\
 # ============================================================
-#  DAY 29 — Tkinter App: Password Manager
+#  DAY 29: Tkinter App: Password Manager
 #  PROJECT: Password Manager with File Storage
 # ============================================================
 #
@@ -1740,7 +1740,7 @@ window.mainloop()
 
 files["day 30/improved password manager.py"] = """\
 # ============================================================
-#  DAY 30 — Error Handling & JSON
+#  DAY 30: Error Handling & JSON
 #  PROJECT: Improved Password Manager (search + JSON storage)
 # ============================================================
 #
@@ -1822,7 +1822,7 @@ def find_password():
 
 
 # --------------------------------------------------
-#  TODO 3: generate_password() — same as Day 29
+#  TODO 3: generate_password(): same as Day 29
 # --------------------------------------------------
 def generate_password():
     letters = list(string.ascii_letters)
@@ -1869,11 +1869,11 @@ window.mainloop()
 
 files["day 31/flash card app.py"] = """\
 # ============================================================
-#  DAY 31 — Capstone: Intermediate Phase
+#  DAY 31: Capstone: Intermediate Phase
 #  PROJECT: Flash Card Language Learning App
 # ============================================================
 #
-#  CAPSTONE — everything from days 15-30:
+#  CAPSTONE: everything from days 15-30:
 #    OOP, Tkinter, pandas, JSON, file I/O, try/except
 #
 #  HOW IT WORKS:
@@ -1983,7 +1983,7 @@ window.mainloop()
 # ============================================================
 #  STRETCH GOALS
 # ============================================================
-#  1. Add more languages — load a different CSV based on user choice
+#  1. Add more languages: load a different CSV based on user choice
 #  2. Show a progress bar (words learned / total words)
 #  3. Add a "hard mode" where you type the translation instead of clicking
 # ============================================================
@@ -1997,4 +1997,4 @@ for filepath, content in files.items():
         f.write(content)
     print(f"Created: {filepath}")
 
-print("Done — Days 15-31 written.")
+print("Done: Days 15-31 written.")

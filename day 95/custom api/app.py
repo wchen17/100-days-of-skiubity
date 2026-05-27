@@ -1,6 +1,6 @@
 # ============================================================
-#  DAY 95 — Portfolio Project
-#  PROJECT: Custom REST API — Random Quote / Joke / Fact Service
+#  DAY 95: Portfolio Project
+#  PROJECT: Custom REST API: Random Quote / Joke / Fact Service
 # ============================================================
 #
 #  SKILLS USED: Flask, SQLAlchemy, REST, authentication, rate limiting

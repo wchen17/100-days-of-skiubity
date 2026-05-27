@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 74 — Time Series & Google Trends
+#  DAY 74: Time Series & Google Trends
 #  PROJECT: Visualise search trends and spot correlations
 # ============================================================
 #

@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 61 — Flask-WTForms
+#  DAY 61: Flask-WTForms
 #  PROJECT: Hardened contact form with validation & CSRF protection
 # ============================================================
 #
@@ -35,7 +35,7 @@ class ContactForm(FlaskForm):
 
 
 # --------------------------------------------------
-#  TODO: Add a second form — LoginForm
+#  TODO: Add a second form: LoginForm
 # --------------------------------------------------
 # Fields: username (StringField), password (PasswordField)
 # Validators: DataRequired on both

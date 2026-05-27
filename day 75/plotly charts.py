@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 75 — Interactive Charts with Plotly
+#  DAY 75: Interactive Charts with Plotly
 #  PROJECT: Android App Store Analysis Dashboard
 # ============================================================
 #
@@ -28,7 +28,7 @@ data = pd.DataFrame({
 
 
 # --------------------------------------------------
-#  TODO 1: Scatter plot — Rating vs Size
+#  TODO 1: Scatter plot: Rating vs Size
 # --------------------------------------------------
 # Color by category, size by installs, hover shows app name
 
@@ -38,7 +38,7 @@ data = pd.DataFrame({
 
 
 # --------------------------------------------------
-#  TODO 2: Bar chart — Average rating by category
+#  TODO 2: Bar chart: Average rating by category
 # --------------------------------------------------
 avg_by_cat = data.groupby("Category")["Rating"].mean().reset_index()
 # fig = px.bar(avg_by_cat, x="Category", y="Rating", ...)
@@ -46,14 +46,14 @@ avg_by_cat = data.groupby("Category")["Rating"].mean().reset_index()
 
 
 # --------------------------------------------------
-#  TODO 3: Pie chart — Installs by category
+#  TODO 3: Pie chart: Installs by category
 # --------------------------------------------------
 # fig = px.pie(data, values="Installs", names="Category", title="...")
 # fig.show()
 
 
 # --------------------------------------------------
-#  TODO 4: Box plot — Rating distribution by category
+#  TODO 4: Box plot: Rating distribution by category
 # --------------------------------------------------
 # fig = px.box(data, x="Category", y="Rating", points="all")
 # fig.show()

@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 26 — List & Dictionary Comprehension
+#  DAY 26: List & Dictionary Comprehension
 #  PROJECT: NATO Phonetic Alphabet Converter
 # ============================================================
 #
@@ -108,7 +108,7 @@ nato_dict = {}  # TODO: use dict comprehension
 #   Convert to uppercase
 #   Use a list comprehension to build output:
 #     [nato_dict[letter] for letter in word]
-#   Handle KeyError — if input has numbers/spaces, try/except or if/else
+#   Handle KeyError: if input has numbers/spaces, try/except or if/else
 
 word = input("Enter a word: ").upper()
 # your comprehension + output here

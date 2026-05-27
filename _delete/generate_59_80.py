@@ -4,7 +4,7 @@ files = {}
 
 files["day 59/blog capstone 2/app.py"] = """\
 # ============================================================
-#  DAY 59 — Bootstrap + Flask Blog (Capstone Part 2)
+#  DAY 59: Bootstrap + Flask Blog (Capstone Part 2)
 #  PROJECT: Full styled blog with real post data
 # ============================================================
 #
@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
 files["day 60/flask forms/app.py"] = """\
 # ============================================================
-#  DAY 60 — POST Requests & HTML Forms in Flask
+#  DAY 60: POST Requests & HTML Forms in Flask
 #  PROJECT: Contact form that sends an email
 # ============================================================
 #
@@ -148,7 +148,7 @@ files["day 60/flask forms/templates/contact.html"] = """\
 
 files["day 61/wtforms/app.py"] = """\
 # ============================================================
-#  DAY 61 — Flask-WTForms
+#  DAY 61: Flask-WTForms
 #  PROJECT: Hardened contact form with validation & CSRF protection
 # ============================================================
 #
@@ -184,7 +184,7 @@ class ContactForm(FlaskForm):
 
 
 # --------------------------------------------------
-#  TODO: Add a second form — LoginForm
+#  TODO: Add a second form: LoginForm
 # --------------------------------------------------
 # Fields: username (StringField), password (PasswordField)
 # Validators: DataRequired on both
@@ -253,8 +253,8 @@ files["day 61/wtforms/templates/contact.html"] = """\
 
 files["day 62/coffee wifi/app.py"] = """\
 # ============================================================
-#  DAY 62 — WTForms + CSV
-#  PROJECT: Coffee & Wifi — "Where can I work remotely?" site
+#  DAY 62: WTForms + CSV
+#  PROJECT: Coffee & Wifi: "Where can I work remotely?" site
 # ============================================================
 #
 #  SKILLS TODAY:
@@ -334,7 +334,7 @@ if __name__ == "__main__":
 
 files["day 63/sqlite intro/app.py"] = """\
 # ============================================================
-#  DAY 63 — SQLite & SQLAlchemy
+#  DAY 63: SQLite & SQLAlchemy
 #  PROJECT: Book Library Database
 # ============================================================
 #
@@ -435,7 +435,7 @@ if __name__ == "__main__":
 
 files["day 64/movies website/app.py"] = """\
 # ============================================================
-#  DAY 64 — SQLAlchemy + TMDB API
+#  DAY 64: SQLAlchemy + TMDB API
 #  PROJECT: My Top 10 Movies Website
 # ============================================================
 #
@@ -566,7 +566,7 @@ if __name__ == "__main__":
 """
 
 files["day 65/web design notes.md"] = """\
-# Day 65 — Web Design Principles
+# Day 65: Web Design Principles
 
 ## What to Study Today
 
@@ -612,7 +612,7 @@ This day is about **design theory**, not coding. Take notes and apply them to yo
 
 files["day 66/rest api/app.py"] = """\
 # ============================================================
-#  DAY 66 — Building a REST API with Flask
+#  DAY 66: Building a REST API with Flask
 #  PROJECT: Cafe Finder API
 # ============================================================
 #
@@ -743,7 +743,7 @@ if __name__ == "__main__":
 
 files["day 67/blog rest/app.py"] = """\
 # ============================================================
-#  DAY 67 — Blog Capstone Part 3: RESTful Routing
+#  DAY 67: Blog Capstone Part 3: RESTful Routing
 #  PROJECT: Blog with full CRUD via REST routes
 # ============================================================
 #
@@ -845,7 +845,7 @@ if __name__ == "__main__":
 
 files["day 68/authentication/app.py"] = """\
 # ============================================================
-#  DAY 68 — User Authentication with Flask
+#  DAY 68: User Authentication with Flask
 #  PROJECT: Secrets page (login required)
 # ============================================================
 #
@@ -943,7 +943,7 @@ def login():
 
 
 # --------------------------------------------------
-#  Secrets page — only logged-in users can see this
+#  Secrets page: only logged-in users can see this
 # --------------------------------------------------
 @app.route("/secrets")
 @login_required
@@ -973,7 +973,7 @@ if __name__ == "__main__":
 
 files["day 69/blog with users/app.py"] = """\
 # ============================================================
-#  DAY 69 — Blog Capstone Part 4: Multi-User Blog
+#  DAY 69: Blog Capstone Part 4: Multi-User Blog
 #  PROJECT: Full blog with registration, login, comments
 # ============================================================
 #
@@ -1074,7 +1074,7 @@ if __name__ == "__main__":
 """
 
 files["day 70/deployment notes.md"] = """\
-# Day 70 — Git & Deployment
+# Day 70: Git & Deployment
 
 ## Skills Today
 - Git: branches, merging, .gitignore
@@ -1141,7 +1141,7 @@ python-dotenv
 
 files["day 71/pandas college majors.py"] = """\
 # ============================================================
-#  DAY 71 — Pandas Data Exploration
+#  DAY 71: Pandas Data Exploration
 #  PROJECT: College Major vs Salary Analysis
 # ============================================================
 #
@@ -1217,7 +1217,7 @@ print(df.describe())
 
 files["day 72/matplotlib charts.py"] = """\
 # ============================================================
-#  DAY 72 — Data Visualisation with Matplotlib
+#  DAY 72: Data Visualisation with Matplotlib
 #  PROJECT: Programming Language Popularity Over Time
 # ============================================================
 #
@@ -1262,7 +1262,7 @@ plt.show()
 
 
 # --------------------------------------------------
-#  TODO 1: Bar chart — starting salaries by language
+#  TODO 1: Bar chart: starting salaries by language
 # --------------------------------------------------
 languages = ["Python", "JavaScript", "Java", "C++", "Go", "Rust"]
 salaries  = [90000, 82000, 88000, 95000, 105000, 110000]
@@ -1271,7 +1271,7 @@ salaries  = [90000, 82000, 88000, 95000, 105000, 110000]
 # Add value labels on each bar
 
 # --------------------------------------------------
-#  TODO 2: Pie chart — market share of databases
+#  TODO 2: Pie chart: market share of databases
 # --------------------------------------------------
 dbs    = ["PostgreSQL", "MySQL", "MongoDB", "SQLite", "Redis", "Other"]
 shares = [36, 29, 18, 8, 5, 4]
@@ -1279,7 +1279,7 @@ shares = [36, 29, 18, 8, 5, 4]
 # plt.pie(shares, labels=dbs, autopct="%1.1f%%", startangle=90)
 
 # --------------------------------------------------
-#  TODO 3: Subplot grid — 2x2 layout
+#  TODO 3: Subplot grid: 2x2 layout
 # --------------------------------------------------
 # Show all four chart types in a 2x2 grid:
 # Top-left: line, top-right: bar, bottom-left: pie, bottom-right: scatter
@@ -1296,7 +1296,7 @@ shares = [36, 29, 18, 8, 5, 4]
 
 files["day 73/lego dataset.py"] = """\
 # ============================================================
-#  DAY 73 — Data Aggregation & Merging
+#  DAY 73: Data Aggregation & Merging
 #  PROJECT: LEGO Dataset Analysis
 # ============================================================
 #
@@ -1308,7 +1308,7 @@ files["day 73/lego dataset.py"] = """\
 #    - Pivot tables: df.pivot_table()
 #    - Reshaping: df.melt()
 #
-#  Dataset: LEGO database (rebrickable.com/downloads — free)
+#  Dataset: LEGO database (rebrickable.com/downloads: free)
 #  For practice, use a mini version below.
 #
 # ============================================================
@@ -1355,7 +1355,7 @@ themes = pd.DataFrame({
 
 files["day 74/google trends.py"] = """\
 # ============================================================
-#  DAY 74 — Time Series & Google Trends
+#  DAY 74: Time Series & Google Trends
 #  PROJECT: Visualise search trends and spot correlations
 # ============================================================
 #
@@ -1421,7 +1421,7 @@ data.set_index("Month", inplace=True)
 
 files["day 75/plotly charts.py"] = """\
 # ============================================================
-#  DAY 75 — Interactive Charts with Plotly
+#  DAY 75: Interactive Charts with Plotly
 #  PROJECT: Android App Store Analysis Dashboard
 # ============================================================
 #
@@ -1450,7 +1450,7 @@ data = pd.DataFrame({
 
 
 # --------------------------------------------------
-#  TODO 1: Scatter plot — Rating vs Size
+#  TODO 1: Scatter plot: Rating vs Size
 # --------------------------------------------------
 # Color by category, size by installs, hover shows app name
 
@@ -1460,7 +1460,7 @@ data = pd.DataFrame({
 
 
 # --------------------------------------------------
-#  TODO 2: Bar chart — Average rating by category
+#  TODO 2: Bar chart: Average rating by category
 # --------------------------------------------------
 avg_by_cat = data.groupby("Category")["Rating"].mean().reset_index()
 # fig = px.bar(avg_by_cat, x="Category", y="Rating", ...)
@@ -1468,14 +1468,14 @@ avg_by_cat = data.groupby("Category")["Rating"].mean().reset_index()
 
 
 # --------------------------------------------------
-#  TODO 3: Pie chart — Installs by category
+#  TODO 3: Pie chart: Installs by category
 # --------------------------------------------------
 # fig = px.pie(data, values="Installs", names="Category", title="...")
 # fig.show()
 
 
 # --------------------------------------------------
-#  TODO 4: Box plot — Rating distribution by category
+#  TODO 4: Box plot: Rating distribution by category
 # --------------------------------------------------
 # fig = px.box(data, x="Category", y="Rating", points="all")
 # fig.show()
@@ -1491,7 +1491,7 @@ avg_by_cat = data.groupby("Category")["Rating"].mean().reset_index()
 
 files["day 76/numpy.py"] = """\
 # ============================================================
-#  DAY 76 — NumPy Array Computation
+#  DAY 76: NumPy Array Computation
 #  PROJECT: Image manipulation + statistical computation
 # ============================================================
 #
@@ -1521,7 +1521,7 @@ import matplotlib.pyplot as plt
 py_list  = [1, 2, 3, 4, 5]
 np_array = np.array([1, 2, 3, 4, 5])
 
-# Element-wise multiplication — lists can't do this:
+# Element-wise multiplication: lists can't do this:
 print(np_array * 2)          # [2 4 6 8 10]
 print(np_array ** 2)         # [1 4 9 16 25]
 print(np_array[np_array > 3])  # [4 5]
@@ -1568,7 +1568,7 @@ rolls = np.random.randint(1, 7, size=1000)
 
 files["day 77/linear regression.py"] = """\
 # ============================================================
-#  DAY 77 — Linear Regression & Seaborn
+#  DAY 77: Linear Regression & Seaborn
 #  PROJECT: Predict values with a regression line
 # ============================================================
 #
@@ -1636,7 +1636,7 @@ model = LinearRegression()
 #  TODO 4: Residuals analysis
 # --------------------------------------------------
 # residuals = y - model.predict(X)
-# Plot a histogram of residuals — should be roughly normal
+# Plot a histogram of residuals: should be roughly normal
 
 
 # ============================================================
@@ -1652,7 +1652,7 @@ model = LinearRegression()
 
 files["day 78/nobel prize analysis.py"] = """\
 # ============================================================
-#  DAY 78 — Multi-library Data Analysis
+#  DAY 78: Multi-library Data Analysis
 #  PROJECT: Nobel Prize Winners Dataset
 # ============================================================
 #
@@ -1663,7 +1663,7 @@ files["day 78/nobel prize analysis.py"] = """\
 #    - Choropleth map with plotly (prizes by country)
 #    - Sunburst / treemap charts
 #
-#  Dataset: from Kaggle "Nobel Prize" — or use sample below
+#  Dataset: from Kaggle "Nobel Prize": or use sample below
 #
 # ============================================================
 
@@ -1723,7 +1723,7 @@ data = pd.DataFrame({
 
 files["day 79/handwashing stats.py"] = """\
 # ============================================================
-#  DAY 79 — Statistical Testing
+#  DAY 79: Statistical Testing
 #  PROJECT: Dr. Semmelweis Handwashing Discovery (t-test)
 # ============================================================
 #
@@ -1801,7 +1801,7 @@ else:
 
 files["day 80/house price prediction.py"] = """\
 # ============================================================
-#  DAY 80 — Capstone: Machine Learning
+#  DAY 80: Capstone: Machine Learning
 #  PROJECT: Predict House Prices (Multivariable Regression)
 # ============================================================
 #
@@ -1925,4 +1925,4 @@ for filepath, content in files.items():
         f.write(content)
     print(f"Created: {filepath}")
 
-print("Done — Days 59-80 written.")
+print("Done: Days 59-80 written.")

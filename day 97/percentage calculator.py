@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 97 — Portfolio Project
+#  DAY 97: Portfolio Project
 #  PROJECT: Multi-purpose Percentage Calculator (CLI + GUI)
 # ============================================================
 #

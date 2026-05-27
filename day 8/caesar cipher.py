@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 8 — Function Parameters & Caesar Cipher
+#  DAY 8: Function Parameters & Caesar Cipher
 #  PROJECT: Caesar Cipher Encoder/Decoder
 # ============================================================
 #
@@ -7,7 +7,7 @@
 #    - def func(param):         → function with a parameter
 #    - def func(p1, p2, p3):    → multiple parameters
 #    - Positional arguments     → order matters when calling
-#    - Keyword arguments        → func(name="Alice") — order doesn't matter
+#    - Keyword arguments        → func(name="Alice"): order doesn't matter
 #    - string.lower()           → normalise case
 #    - chr() and ord()          → convert between char and ASCII number
 #    - % (modulo)               → wrap numbers around (e.g. 26 % 26 == 0)

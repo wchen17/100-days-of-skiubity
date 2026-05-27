@@ -4,7 +4,7 @@ files = {}
 
 files["day 32/birthday wisher.py"] = """\
 # ============================================================
-#  DAY 32 — Email Automation & datetime
+#  DAY 32: Email Automation & datetime
 #  PROJECT: Automated Birthday Wisher
 # ============================================================
 #
@@ -30,7 +30,7 @@ import pandas
 import random
 
 MY_EMAIL    = "your_email@gmail.com"   # TODO: replace
-MY_PASSWORD = "your_app_password"      # TODO: replace — use env var in real use
+MY_PASSWORD = "your_app_password"      # TODO: replace: use env var in real use
 
 # Sample birthday data (replace with real CSV file)
 import io
@@ -114,7 +114,7 @@ else:
 
 files["day 33/iss notifier.py"] = """\
 # ============================================================
-#  DAY 33 — APIs: Endpoints, Parameters, HTTP Codes
+#  DAY 33: APIs: Endpoints, Parameters, HTTP Codes
 #  PROJECT: ISS Overhead Notifier
 # ============================================================
 #
@@ -184,7 +184,7 @@ def is_night():
 
 
 # --------------------------------------------------
-#  TODO 3: Main loop — check every 60 seconds
+#  TODO 3: Main loop: check every 60 seconds
 # --------------------------------------------------
 # If is_iss_overhead() AND is_night():
 #   Send email: "Look Up! ISS is above you!"
@@ -192,7 +192,7 @@ def is_night():
 
 while True:
     if is_iss_overhead() and is_night():
-        print("ISS is overhead and it's dark — sending email!")
+        print("ISS is overhead and it's dark: sending email!")
         # TODO: send email with smtplib (same as Day 32)
     else:
         print("ISS not visible right now.")
@@ -210,7 +210,7 @@ while True:
 
 files["day 34/gui quiz app.py"] = """\
 # ============================================================
-#  DAY 34 — API Practice + GUI
+#  DAY 34: API Practice + GUI
 #  PROJECT: Trivia Quiz App (Open Trivia DB + Tkinter)
 # ============================================================
 #
@@ -368,7 +368,7 @@ quiz_ui = QuizInterface(quiz)
 
 files["day 35/rain notifier.py"] = """\
 # ============================================================
-#  DAY 35 — API Authentication & Environment Variables
+#  DAY 35: API Authentication & Environment Variables
 #  PROJECT: Rain Notifier (SMS alert for rain today)
 # ============================================================
 #
@@ -409,7 +409,7 @@ MY_LONG = -0.127758
 # GET https://api.openweathermap.org/data/2.5/forecast
 # params: lat, lon, appid, cnt=4 (next 4 x 3-hour slots = 12 hours)
 # Inspect response.json() to find the list of forecasts
-# Each entry has "weather"[0]["id"] — condition code
+# Each entry has "weather"[0]["id"]: condition code
 
 params = {
     "lat":   MY_LAT,
@@ -461,7 +461,7 @@ else:
 
 files["day 36/stock alert.py"] = """\
 # ============================================================
-#  DAY 36 — Stock API + News API
+#  DAY 36: Stock API + News API
 #  PROJECT: Stock Trading News Alert Bot
 # ============================================================
 #
@@ -552,7 +552,7 @@ if pct > 5:
 
 files["day 37/habit tracker.py"] = """\
 # ============================================================
-#  DAY 37 — API POST Requests & Pixela
+#  DAY 37: API POST Requests & Pixela
 #  PROJECT: Habit Tracker (Graph your daily coding/exercise)
 # ============================================================
 #
@@ -659,7 +659,7 @@ delete_endpoint = f"{pixel_endpoint}/{delete_date}"
 
 files["day 38/workout tracker.py"] = """\
 # ============================================================
-#  DAY 38 — Google Sheets Integration
+#  DAY 38: Google Sheets Integration
 #  PROJECT: Workout Tracker (NLP → Google Sheets)
 # ============================================================
 #
@@ -745,7 +745,7 @@ for exercise in exercises:
 
 files["day 39/flight deal finder.py"] = """\
 # ============================================================
-#  DAY 39-40 — Capstone: Flight Deal Finder
+#  DAY 39-40: Capstone: Flight Deal Finder
 #  PROJECT: Find cheap flights and notify by SMS/email
 # ============================================================
 #
@@ -858,7 +858,7 @@ class NotificationManager:
 
 files["day 41/html intro.html"] = """\
 <!-- ============================================================
-     DAY 41 — HTML Basics
+     DAY 41: HTML Basics
      PROJECT: Build your first web page from scratch
      ============================================================
 
@@ -928,7 +928,7 @@ files["day 41/html intro.html"] = """\
 
 files["day 42/intermediate html.html"] = """\
 <!-- ============================================================
-     DAY 42 — Intermediate HTML
+     DAY 42: Intermediate HTML
      PROJECT: Personal Portfolio Page (HTML only)
      ============================================================
 
@@ -956,7 +956,7 @@ files["day 42/intermediate html.html"] = """\
 
     <div id="header">
         <h1>My Developer Portfolio</h1>
-        <p>100 Days of Code — Work in Progress</p>
+        <p>100 Days of Code: Work in Progress</p>
     </div>
 
     <hr>
@@ -1028,7 +1028,7 @@ files["day 43/css intro/index.html"] = """\
 
 files["day 43/css intro/style.css"] = """\
 /* ============================================================
-   DAY 43 — CSS Fundamentals
+   DAY 43: CSS Fundamentals
    PROJECT: Style the Day 42 portfolio page
    ============================================================
 
@@ -1098,7 +1098,7 @@ body {
 
 files["day 44/intermediate css/style.css"] = """\
 /* ============================================================
-   DAY 44 — Intermediate CSS
+   DAY 44: Intermediate CSS
    PROJECT: Style a full portfolio page with layout
    ============================================================
 
@@ -1215,7 +1215,7 @@ files["day 44/intermediate css/index.html"] = """\
 
 files["day 45/web scraping.py"] = """\
 # ============================================================
-#  DAY 45 — Web Scraping with BeautifulSoup
+#  DAY 45: Web Scraping with BeautifulSoup
 #  PROJECT: Scrape a website and extract structured data
 # ============================================================
 #
@@ -1287,7 +1287,7 @@ all_books = []
 # ============================================================
 #  STRETCH GOALS
 # ============================================================
-#  1. Scrape https://quotes.toscrape.com/ — get quote text, author, tags
+#  1. Scrape https://quotes.toscrape.com/: get quote text, author, tags
 #  2. Find the top 5 rated books from the full 1000-book catalogue
 #  3. Automatically open the cheapest book's detail page
 # ============================================================
@@ -1295,7 +1295,7 @@ all_books = []
 
 files["day 46/spotify time machine.py"] = """\
 # ============================================================
-#  DAY 46 — Web Scraping Project
+#  DAY 46: Web Scraping Project
 #  PROJECT: Spotify Time Machine (Billboard → Playlist)
 # ============================================================
 #
@@ -1389,7 +1389,7 @@ for song in songs:
 
 files["day 47/amazon price tracker.py"] = """\
 # ============================================================
-#  DAY 47 — Web Scraping Project
+#  DAY 47: Web Scraping Project
 #  PROJECT: Amazon Price Tracker (email alert when price drops)
 # ============================================================
 #
@@ -1470,7 +1470,7 @@ else:
 
 files["day 48/selenium basics.py"] = """\
 # ============================================================
-#  DAY 48 — Selenium WebDriver
+#  DAY 48: Selenium WebDriver
 #  PROJECT: Automate a Browser + Game Bot
 # ============================================================
 #
@@ -1535,7 +1535,7 @@ driver.quit()
 # time.sleep(5)   # wait for page to load
 # cookie = driver.find_element(By.ID, "bigCookie")
 
-# TODO: 5-minute loop — click cookie, check upgrades every 60 seconds
+# TODO: 5-minute loop: click cookie, check upgrades every 60 seconds
 
 
 # ============================================================
@@ -1553,7 +1553,7 @@ driver.quit()
 
 files["day 49/job application bot.py"] = """\
 # ============================================================
-#  DAY 49 — Selenium Bot
+#  DAY 49: Selenium Bot
 #  PROJECT: Automated Job Application Bot (LinkedIn Easy Apply)
 # ============================================================
 #
@@ -1628,7 +1628,7 @@ driver.quit()
 
 files["day 50/tinder bot.py"] = """\
 # ============================================================
-#  DAY 50 — Selenium Bot
+#  DAY 50: Selenium Bot
 #  PROJECT: Tinder Auto-Swipe Bot
 # ============================================================
 #
@@ -1706,7 +1706,7 @@ driver.quit()
 
 files["day 51/twitter complaint bot.py"] = """\
 # ============================================================
-#  DAY 51 — Selenium Bot
+#  DAY 51: Selenium Bot
 #  PROJECT: Internet Speed Twitter Complaint Bot
 # ============================================================
 #
@@ -1777,7 +1777,7 @@ driver.quit()
 
 files["day 52/instagram bot.py"] = """\
 # ============================================================
-#  DAY 52 — Selenium Bot
+#  DAY 52: Selenium Bot
 #  PROJECT: Instagram Follower Bot
 # ============================================================
 #
@@ -1851,7 +1851,7 @@ driver.quit()
 
 files["day 53/data entry bot.py"] = """\
 # ============================================================
-#  DAY 53 — Web Scraping Capstone
+#  DAY 53: Web Scraping Capstone
 #  PROJECT: Automated Data Entry (Zillow → Google Form)
 # ============================================================
 #
@@ -1872,7 +1872,7 @@ import time
 # --------------------------------------------------
 #  TODO 1: Scrape rental listings from Zillow (or similar site)
 # --------------------------------------------------
-# Some sites block scrapers — use https://appbrewery.github.io/Zillow-Clone/
+# Some sites block scrapers: use https://appbrewery.github.io/Zillow-Clone/
 # (a practice clone made for this exercise)
 
 ZILLOW_CLONE = "https://appbrewery.github.io/Zillow-Clone/"
@@ -1930,7 +1930,7 @@ driver.quit()
 
 files["day 54/flask intro/app.py"] = """\
 # ============================================================
-#  DAY 54 — Flask Web Framework Intro
+#  DAY 54: Flask Web Framework Intro
 #  PROJECT: Your first Flask web server
 # ============================================================
 #
@@ -1983,7 +1983,7 @@ def home():
 
 
 # --------------------------------------------------
-#  TODO 3: /about route — render an HTML template
+#  TODO 3: /about route: render an HTML template
 # --------------------------------------------------
 # Create templates/about.html (see below)
 # Use render_template("about.html")
@@ -2034,7 +2034,7 @@ files["day 54/flask intro/templates/about.html"] = """\
 
 files["day 55/flask routing/app.py"] = """\
 # ============================================================
-#  DAY 55 — Flask Routing & HTML Parsing
+#  DAY 55: Flask Routing & HTML Parsing
 #  PROJECT: Higher or Lower Game (web version)
 # ============================================================
 #
@@ -2099,7 +2099,7 @@ files["day 55/flask routing/templates/home.html"] = """\
 
 files["day 56/name card/app.py"] = """\
 # ============================================================
-#  DAY 56 — Static Files & Templates
+#  DAY 56: Static Files & Templates
 #  PROJECT: Personal Name Card Website
 # ============================================================
 #
@@ -2125,7 +2125,7 @@ user = {
     "title":      "Aspiring Python Developer",
     "email":      "apexofficial21@gmail.com",
     "github":     "https://github.com/wchen17",
-    "bio":        "100 Days of Code — building skills one day at a time.",
+    "bio":        "100 Days of Code: building skills one day at a time.",
     "skills":     ["Python", "Flask", "Selenium", "APIs", "Data Science"],
     "days_done":  56,
 }
@@ -2184,7 +2184,7 @@ h2 { color: #89b4fa; font-weight: normal; }
 
 files["day 57/jinja blog/app.py"] = """\
 # ============================================================
-#  DAY 57 — Jinja2 Templating
+#  DAY 57: Jinja2 Templating
 #  PROJECT: Blog with dynamic posts from an API
 # ============================================================
 #
@@ -2283,7 +2283,7 @@ files["day 57/jinja blog/templates/post.html"] = """\
 
 files["day 58/bootstrap blog/app.py"] = """\
 # ============================================================
-#  DAY 58 — Bootstrap CSS Framework
+#  DAY 58: Bootstrap CSS Framework
 #  PROJECT: Bootstrap-styled Blog
 # ============================================================
 #
@@ -2356,7 +2356,7 @@ files["day 58/bootstrap blog/templates/base.html"] = """\
 
 files["day 58/bootstrap blog/templates/index.html"] = """\
 {% extends "base.html" %}
-{% block title %}Home — My Blog{% endblock %}
+{% block title %}Home: My Blog{% endblock %}
 {% block content %}
 
 <h1 class="mb-4">Latest Posts</h1>
@@ -2388,4 +2388,4 @@ for filepath, content in files.items():
         f.write(content)
     print(f"Created: {filepath}")
 
-print("Done — Days 32-58 written.")
+print("Done: Days 32-58 written.")

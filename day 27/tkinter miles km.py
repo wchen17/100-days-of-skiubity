@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 27 — Tkinter GUI & Layout
+#  DAY 27: Tkinter GUI & Layout
 #  PROJECT: Miles-to-Kilometres Converter
 # ============================================================
 #

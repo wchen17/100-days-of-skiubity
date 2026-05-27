@@ -2,10 +2,6 @@
 
 This day teaches almost no new syntax. Its real lesson is **how to break a big problem into steps**, which is the skill the whole course is secretly about.
 
-## Prerequisites (builds on)
-
-Days 4-6: lists, loops, functions, and `random.choice`. No new syntax today.
-
 ## Practice exercises (do these before the project)
 
 No standalone exercises today. Hangman is built in 5 guided steps (videos 003-007). Treat each step as a mini-exercise: read what the step should do, attempt it yourself, then watch that step's video only to check or unstick. That keeps the step-by-step format from turning into pure transcription.

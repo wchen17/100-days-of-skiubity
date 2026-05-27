@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 24 — File I/O: Reading and Writing Files
+#  DAY 24: File I/O: Reading and Writing Files
 #  PROJECT: Mail Merge Letter Generator
 # ============================================================
 #

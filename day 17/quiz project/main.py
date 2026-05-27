@@ -1,4 +1,4 @@
-# main.py — run this file to play the quiz
+# main.py: run this file to play the quiz
 
 from question_model import Question
 from data import question_data

@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 12 — Scope
+#  DAY 12: Scope
 #  PROJECT: Number Guessing Game
 # ============================================================
 #
@@ -14,7 +14,7 @@
 
 import random
 
-# Global constant — lives per difficulty
+# Global constant: lives per difficulty
 EASY_LEVEL_TURNS = 10
 HARD_LEVEL_TURNS = 5
 
@@ -42,7 +42,7 @@ def check_answer(guess, answer, turns):
 
 
 # --------------------------------------------------
-#  TODO 3: game() — wire it all together
+#  TODO 3: game(): wire it all together
 # --------------------------------------------------
 # Print the logo / welcome message
 # Pick a random number between 1 and 100

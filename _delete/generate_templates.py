@@ -4,7 +4,7 @@ days = {}
 
 days[4] = ("day 4", "rock paper scissors.py", """\
 # ============================================================
-#  DAY 4 — Randomisation & Python Lists
+#  DAY 4: Randomisation & Python Lists
 #  PROJECT: Rock Paper Scissors
 # ============================================================
 #
@@ -101,14 +101,14 @@ computer_choice = None  # replace this line
 #  1. Wrap the whole game in a while loop so it keeps playing
 #     until the player types "quit"
 #  2. Track score across multiple rounds
-#  3. Validate input — what if the player types 5? Print an
+#  3. Validate input: what if the player types 5? Print an
 #     error and ask again instead of crashing
 # ============================================================
 """)
 
 days[5] = ("day 5", "password generator.py", """\
 # ============================================================
-#  DAY 5 — Python Loops
+#  DAY 5: Python Loops
 #  PROJECT: Password Generator
 # ============================================================
 #
@@ -152,7 +152,7 @@ print("Welcome to the Password Generator!")
 # Loop nr_letters times → pick a random letter, add to password string
 # Loop nr_symbols times → pick a random symbol, add to password string
 # Loop nr_numbers times → pick a random number, add to password string
-# Print the result — this is the EASY level (characters in order)
+# Print the result: this is the EASY level (characters in order)
 
 password_easy = ""
 # your loops here
@@ -179,7 +179,7 @@ print(f"Hard password: {password_hard}")
 #  STRETCH GOALS
 # ============================================================
 #  1. Let the user generate multiple passwords in a row
-#     using a while loop — stop when they type "quit"
+#     using a while loop: stop when they type "quit"
 #  2. Add a strength checker: count letters/symbols/numbers
 #     and print "Weak / Medium / Strong"
 #  3. Let the user set a minimum password length instead of
@@ -189,7 +189,7 @@ print(f"Hard password: {password_hard}")
 
 days[6] = ("day 6", "functions intro.py", """\
 # ============================================================
-#  DAY 6 — Python Functions & Reeborg's World
+#  DAY 6: Python Functions & Reeborg's World
 #  PROJECT: Maze Solver (simulated with functions)
 # ============================================================
 #
@@ -231,10 +231,10 @@ def turn_left():
     print("Turning left")
 
 def turn_right():
-    pass  # TODO: replace pass — call turn_left() 3 times
+    pass  # TODO: replace pass: call turn_left() 3 times
 
 def turn_around():
-    pass  # TODO: replace pass — call turn_left() twice
+    pass  # TODO: replace pass: call turn_left() twice
 
 
 # --------------------------------------------------
@@ -259,7 +259,7 @@ def jump():
 #   → go forward 1 step  → FINISH
 #
 # Write out the solution by CALLING your functions.
-# Don't repeat raw print statements — use the functions you made.
+# Don't repeat raw print statements: use the functions you made.
 
 def move():
     print("Moving forward")
@@ -281,7 +281,7 @@ def move():
 
 days[7] = ("day 7", "hangman.py", """\
 # ============================================================
-#  DAY 7 — Combining Skills
+#  DAY 7: Combining Skills
 #  PROJECT: Hangman
 # ============================================================
 #
@@ -297,11 +297,11 @@ days[7] = ("day 7", "hangman.py", """\
 
 import random
 
-# Word bank — the game picks one of these
+# Word bank: the game picks one of these
 word_list = ["ardvark", "baboon", "camel", "python", "javascript",
              "keyboard", "monitor", "algorithm", "variable", "function"]
 
-# Hangman art — each stage is one fewer life
+# Hangman art: each stage is one fewer life
 HANGMAN_PICS = ['''
   +---+
   |   |
@@ -409,7 +409,7 @@ while not game_over:
 
 days[8] = ("day 8", "caesar cipher.py", """\
 # ============================================================
-#  DAY 8 — Function Parameters & Caesar Cipher
+#  DAY 8: Function Parameters & Caesar Cipher
 #  PROJECT: Caesar Cipher Encoder/Decoder
 # ============================================================
 #
@@ -417,7 +417,7 @@ days[8] = ("day 8", "caesar cipher.py", """\
 #    - def func(param):         → function with a parameter
 #    - def func(p1, p2, p3):    → multiple parameters
 #    - Positional arguments     → order matters when calling
-#    - Keyword arguments        → func(name="Alice") — order doesn't matter
+#    - Keyword arguments        → func(name="Alice"): order doesn't matter
 #    - string.lower()           → normalise case
 #    - chr() and ord()          → convert between char and ASCII number
 #    - % (modulo)               → wrap numbers around (e.g. 26 % 26 == 0)
@@ -490,7 +490,7 @@ while should_continue:
 
 days[9] = ("day 9", "secret auction.py", """\
 # ============================================================
-#  DAY 9 — Dictionaries & Nesting
+#  DAY 9: Dictionaries & Nesting
 #  PROJECT: Secret Auction
 # ============================================================
 #
@@ -545,14 +545,14 @@ find_highest_bidder(bids)
 # ============================================================
 #  1. Store each bid as a dict itself:
 #       bids[name] = {"bid": amount, "email": email}
-#  2. Handle ties — what if two people bid the same highest amount?
+#  2. Handle ties: what if two people bid the same highest amount?
 #  3. Show a sorted leaderboard of all bids after the winner
 # ============================================================
 """)
 
 days[10] = ("day 10", "calculator.py", """\
 # ============================================================
-#  DAY 10 — Functions with Return Values
+#  DAY 10: Functions with Return Values
 #  PROJECT: Calculator
 # ============================================================
 #
@@ -568,7 +568,7 @@ days[10] = ("day 10", "calculator.py", """\
 #  TODO 1: Write the four maths functions
 # --------------------------------------------------
 # Each takes two numbers (n1, n2) and RETURNS the result.
-# Do NOT print inside them — just return.
+# Do NOT print inside them: just return.
 
 def add(n1, n2):
     pass  # TODO: return n1 + n2
@@ -580,7 +580,7 @@ def multiply(n1, n2):
     pass  # TODO
 
 def divide(n1, n2):
-    pass  # TODO: handle division by zero — return None or print a warning
+    pass  # TODO: handle division by zero: return None or print a warning
 
 
 # --------------------------------------------------
@@ -642,7 +642,7 @@ calculator()
 
 days[11] = ("day 11", "blackjack.py", """\
 # ============================================================
-#  DAY 11 — Capstone Project
+#  DAY 11: Capstone Project
 #  PROJECT: Blackjack
 # ============================================================
 #
@@ -663,32 +663,32 @@ days[11] = ("day 11", "blackjack.py", """\
 import random
 from art import logo   # TODO: create an art.py file with a logo string (optional)
 
-# Deck — infinite shoe (we just pick random cards each time)
+# Deck: infinite shoe (we just pick random cards each time)
 cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 
 
 # --------------------------------------------------
-#  TODO 1: deal_card() — returns one random card from cards
+#  TODO 1: deal_card(): returns one random card from cards
 # --------------------------------------------------
 def deal_card():
     pass
 
 
 # --------------------------------------------------
-#  TODO 2: calculate_score(hand) — returns the score
+#  TODO 2: calculate_score(hand): returns the score
 # --------------------------------------------------
 # hand is a list of card values
 # Sum them up
 # If sum > 21 and 11 is in the hand → replace the 11 with a 1
 # Special rule: if hand has exactly 2 cards and sums to 21 → return 0
-#   (0 signals a natural Blackjack — unbeatable hand)
+#   (0 signals a natural Blackjack: unbeatable hand)
 
 def calculate_score(hand):
     pass
 
 
 # --------------------------------------------------
-#  TODO 3: compare(user_score, computer_score) — print winner
+#  TODO 3: compare(user_score, computer_score): print winner
 # --------------------------------------------------
 # Handle these cases in order:
 #   both == 0           → Draw (both have Blackjack)
@@ -705,7 +705,7 @@ def compare(user_score, computer_score):
 
 
 # --------------------------------------------------
-#  TODO 4: play_game() — the main game function
+#  TODO 4: play_game(): the main game function
 # --------------------------------------------------
 # Deal 2 cards to both player and computer
 # Show player's cards + score; show only computer's FIRST card
@@ -732,7 +732,7 @@ while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == 'y'
 # ============================================================
 #  STRETCH GOALS
 # ============================================================
-#  1. Add betting — start with $100, wager before each hand
+#  1. Add betting: start with $100, wager before each hand
 #  2. Add splitting (when you have two of the same card)
 #  3. Add a "double down" option
 # ============================================================
@@ -740,7 +740,7 @@ while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == 'y'
 
 days[12] = ("day 12", "number guessing game.py", """\
 # ============================================================
-#  DAY 12 — Scope
+#  DAY 12: Scope
 #  PROJECT: Number Guessing Game
 # ============================================================
 #
@@ -755,7 +755,7 @@ days[12] = ("day 12", "number guessing game.py", """\
 
 import random
 
-# Global constant — lives per difficulty
+# Global constant: lives per difficulty
 EASY_LEVEL_TURNS = 10
 HARD_LEVEL_TURNS = 5
 
@@ -783,7 +783,7 @@ def check_answer(guess, answer, turns):
 
 
 # --------------------------------------------------
-#  TODO 3: game() — wire it all together
+#  TODO 3: game(): wire it all together
 # --------------------------------------------------
 # Print the logo / welcome message
 # Pick a random number between 1 and 100
@@ -816,7 +816,7 @@ game()
 
 days[13] = ("day 13", "debugging exercises.py", """\
 # ============================================================
-#  DAY 13 — Debugging
+#  DAY 13: Debugging
 #  PROJECT: Fix the Broken Code
 # ============================================================
 #
@@ -835,13 +835,13 @@ days[13] = ("day 13", "debugging exercises.py", """\
 #        LogicError   → code runs but gives wrong answer
 #
 #  INSTRUCTIONS:
-#    Each TODO below has broken code. Fix it. Don't just delete —
+#    Each TODO below has broken code. Fix it. Don't just delete:
 #    understand WHY it was broken first.
 #
 # ============================================================
 
 # --------------------------------------------------
-#  BUG 1: TypeError — add a debug print first, then fix
+#  BUG 1: TypeError: add a debug print first, then fix
 # --------------------------------------------------
 age = input("What is your age? ")
 # Bug: can't multiply a string by a float
@@ -849,7 +849,7 @@ age = input("What is your age? ")
 # TODO: fix the line above and print the result
 
 # --------------------------------------------------
-#  BUG 2: NameError — a variable is used before it's created
+#  BUG 2: NameError: a variable is used before it's created
 # --------------------------------------------------
 # TODO: figure out what's wrong and fix it without removing lines
 # score = 0
@@ -865,14 +865,14 @@ fruits = ["apple", "mango", "pear"]
 # print(fruits[3])
 
 # --------------------------------------------------
-#  BUG 4: Logic error — off-by-one in range
+#  BUG 4: Logic error: off-by-one in range
 # --------------------------------------------------
 # This should print 1 to 10 inclusive. Fix it.
 # for i in range(1, 10):
 #     print(i)
 
 # --------------------------------------------------
-#  BUG 5: Logic error — wrong condition
+#  BUG 5: Logic error: wrong condition
 # --------------------------------------------------
 # Should print "even" for even numbers, "odd" for odd.
 # Fix the condition.
@@ -883,7 +883,7 @@ fruits = ["apple", "mango", "pear"]
 #     print("odd")
 
 # --------------------------------------------------
-#  BUG 6: Debugging a function — use print() to trace it
+#  BUG 6: Debugging a function: use print() to trace it
 # --------------------------------------------------
 # This should return the average of a list but always returns 0.
 # Add print statements inside to find where it goes wrong, then fix it.
@@ -908,11 +908,11 @@ def average(numbers):
 
 days[14] = ("day 14", "higher lower game.py", """\
 # ============================================================
-#  DAY 14 — Capstone: Beginner Phase
+#  DAY 14: Capstone: Beginner Phase
 #  PROJECT: Higher or Lower (Instagram Follower Game)
 # ============================================================
 #
-#  CAPSTONE — uses EVERYTHING from Days 1-13:
+#  CAPSTONE: uses EVERYTHING from Days 1-13:
 #    random, lists, dicts, functions, return values, loops, scope
 #
 #  GAME RULES:
@@ -925,7 +925,7 @@ days[14] = ("day 14", "higher lower game.py", """\
 
 import random
 
-# Sample data — each entry: name, description, country, follower_count
+# Sample data: each entry: name, description, country, follower_count
 data = [
     {"name": "Instagram",      "description": "Social media platform", "country": "USA",   "follower_count": 346},
     {"name": "Cristiano Ronaldo","description":"Footballer",           "country": "Portugal","follower_count": 475},
@@ -975,7 +975,7 @@ def check_answer(guess, a_followers, b_followers):
 
 
 # --------------------------------------------------
-#  TODO 3: game() — main game loop
+#  TODO 3: game(): main game loop
 # --------------------------------------------------
 # Print logo
 # Pick a random account for A
@@ -1021,4 +1021,4 @@ for day_num, (folder, filename, content) in days.items():
         f.write(content)
     print(f"Created: {folder}/{filename}")
 
-print("Done — Days 4-14 written.")
+print("Done: Days 4-14 written.")

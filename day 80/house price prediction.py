@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 80 — Capstone: Machine Learning
+#  DAY 80: Capstone: Machine Learning
 #  PROJECT: Predict House Prices (Multivariable Regression)
 # ============================================================
 #

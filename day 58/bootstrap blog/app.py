@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 58 — Bootstrap CSS Framework
+#  DAY 58: Bootstrap CSS Framework
 #  PROJECT: Bootstrap-styled Blog
 # ============================================================
 #

@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 38 — Google Sheets Integration
+#  DAY 38: Google Sheets Integration
 #  PROJECT: Workout Tracker (NLP → Google Sheets)
 # ============================================================
 #

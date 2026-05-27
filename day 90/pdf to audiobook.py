@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 90 — Portfolio Project
+#  DAY 90: Portfolio Project
 #  PROJECT: PDF to Audiobook Converter
 # ============================================================
 #
@@ -21,7 +21,7 @@ from tkinter import filedialog, messagebox
 import threading
 import os
 
-# Try pyttsx3 (offline TTS) — falls back gracefully if not installed
+# Try pyttsx3 (offline TTS): falls back gracefully if not installed
 try:
     import pyttsx3
     TTS_ENGINE = "pyttsx3"
@@ -93,7 +93,7 @@ class AudiobookApp:
         return pages
 
     # --------------------------------------------------
-    #  TODO 2: read_aloud() — run in a thread so UI stays responsive
+    #  TODO 2: read_aloud(): run in a thread so UI stays responsive
     # --------------------------------------------------
     # Extract pages, loop through each:
     #   Update page_label
@@ -124,7 +124,7 @@ class AudiobookApp:
             self.status.config(text="pyttsx3 not available. Use Save as MP3 instead.")
 
     # --------------------------------------------------
-    #  TODO 3: save_mp3() — use gTTS to save each page as mp3
+    #  TODO 3: save_mp3(): use gTTS to save each page as mp3
     # --------------------------------------------------
     def save_mp3(self):
         pass   # TODO

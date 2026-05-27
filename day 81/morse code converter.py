@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 81 — Portfolio Project
+#  DAY 81: Portfolio Project
 #  PROJECT: Text to Morse Code Converter (CLI tool)
 # ============================================================
 #

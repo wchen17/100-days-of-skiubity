@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 39-40 — Capstone: Flight Deal Finder
+#  DAY 39-40: Capstone: Flight Deal Finder
 #  PROJECT: Find cheap flights and notify by SMS/email
 # ============================================================
 #

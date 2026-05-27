@@ -2,10 +2,6 @@
 
 No new syntax. This is a test of Days 1-10 in one project. The right way to do it is to attempt from the requirements and treat every "Hint Solution Walkthrough" video as an answer key you open only when stuck.
 
-## Prerequisites (builds on)
-
-Everything from Days 1-10: random, lists, dicts, functions, return values, while loops, conditionals. This capstone deliberately uses no new syntax.
-
 ## Practice exercises (do these before the project)
 
 No standalone exercises. Blackjack is the exercise. The "Hint Solution Walkthrough" videos replace separate drills, so the practice is attempting each function from the requirements before opening its hint video.

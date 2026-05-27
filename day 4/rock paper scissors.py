@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 4 — Randomisation & Python Lists
+#  DAY 4: Randomisation & Python Lists
 #  PROJECT: Rock Paper Scissors
 # ============================================================
 #
@@ -111,6 +111,6 @@ else:
 #  1. Wrap the whole game in a while loop so it keeps playing
 #     until the player types "quit"
 #  2. Track score across multiple rounds
-#  3. Validate input — what if the player types 5? Print an
+#  3. Validate input: what if the player types 5? Print an
 #     error and ask again instead of crashing
 # ============================================================

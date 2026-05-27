@@ -1,5 +1,5 @@
 # ============================================================
-#  DAY 92 — Portfolio Project
+#  DAY 92: Portfolio Project
 #  PROJECT: Custom Web Scraper CLI Tool
 # ============================================================
 #
